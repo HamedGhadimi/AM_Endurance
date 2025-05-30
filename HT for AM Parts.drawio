@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GI2zfPSs0xwctTi4dzz5-1" value="Heat Treatment for Metallic Additive Manufactured Parts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="170" y="30" width="500" height="30" as="geometry" />
+        <mxCell id="GI2zfPSs0xwctTi4dzz5-1" value="Heat Treatment for Metallic Parts Made Using Additive Manufacturing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="175" y="20" width="500" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
