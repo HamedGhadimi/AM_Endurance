@@ -2,7 +2,7 @@ title: AM Endurance
 description: Metal Additive Manufacturing (L-PBF & EB-PBF) Technical Maps
 url: "https://hamedghadimi.github.io"
 baseurl: "/AM_Endurance"
-remote_theme: mmistakes/minimal-mistakes@4.18.0
+remote_theme: mmistakes/minimal-mistakes@4.9.0
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
