@@ -1,0 +1,27 @@
+title: AM Endurance
+description: Metal Additive Manufacturing (L-PBF & EB-PBF) Technical Maps
+url: "https://hamedghadimi.github.io"
+baseurl: "/AM_Endurance"
+
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+author:
+  name: "Hamed Ghadimi"
+  bio: "Additive Manufacturing Materials & Processes Engineer and Researcher focused on L-PBF & EB-PBF"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hamed-ghadimi/"
+
+minimal_mistakes_skin: "air"  # Options: default, air, aqua, contrast, dark, dirt, mint, sunrise
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
