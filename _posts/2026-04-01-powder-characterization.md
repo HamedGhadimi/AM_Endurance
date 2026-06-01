@@ -1,3 +1,7 @@
+header:
+  overlay_image: /AM_Endurance/assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-3.jpg
+  overlay_filter: 0.45
+  caption: "Metal Powder Characterization Map — AM Endurance"
 ---
 title: "Mapping Metal Powder Characterization in Additive Manufacturing (L-PBF & EBM)"
 excerpt: "This project maps the complete characterization framework for metallic powders used in Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting characteristics, test methods, and standards into a single, navigable reference."
