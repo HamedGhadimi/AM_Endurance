@@ -11,11 +11,11 @@ plugins:
 author:
   name: "Hamed Ghadimi"
   bio: "Additive Manufacturing Materials & Process Engineer and Researcher focused on L-PBF & EBM"
+  location: "Boston, MA"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/hamed-ghadimi/"
-      location: "Boston, MA"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HamedGhadimi"
