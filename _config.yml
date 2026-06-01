@@ -10,6 +10,7 @@ plugins:
 
 author:
   name: "Hamed Ghadimi"
+  avatar: "/assets/images/bio-photo.jpg"
   bio: "Additive Manufacturing Materials & Process Engineer and Researcher focused on L-PBF & EBM"
   location: "Boston, MA"
   links:
@@ -22,9 +23,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:ghadimi.hamed@gmail.com"
-    - label: "AM Endurance"
+    - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
-      url: "https://hamedghadimi.github.io/AM_Endurance"
+      url: "https://scholar.google.com/citations?user=iF3bRHMAAAAJ&hl=en"
 
 minimal_mistakes_skin: "air"  # Options: default, air, aqua, contrast, dark, dirt, mint, sunrise
 
