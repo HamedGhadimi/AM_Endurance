@@ -13,19 +13,9 @@ author:
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Additive Manufacturing Materials & Process Engineer and Researcher focused on L-PBF & EBM"
   location: "Boston, MA"
-  links:
-  - label: "Email"
-    icon: "fas fa-fw fa-envelope"
-    url: "mailto:ghadimi.hamed@gmail.com"
-  - label: "LinkedIn"
-    icon: "fab fa-fw fa-linkedin"
-    url: "https://www.linkedin.com/in/hamed-ghadimi/"
-  - label: "GitHub"
-    icon: "fab fa-fw fa-github"
-    url: "https://github.com/HamedGhadimi"
-  - label: "Google Scholar"
-    icon: "fas fa-fw fa-graduation-cap"
-    url: "https://scholar.google.com/citations?user=iF3bRHMAAAAJ&hl=en"
+  email: "ghadimi.hamed@gmail.com"
+  linkedin: "hamed-ghadimi"
+  github: "HamedGhadimi"
 
 minimal_mistakes_skin: "air"  # Options: default, air, aqua, contrast, dark, dirt, mint, sunrise
 
