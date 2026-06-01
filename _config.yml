@@ -2,7 +2,7 @@ title: AM Endurance
 description: Metal Additive Manufacturing (L-PBF & EB-PBF) Technical Maps
 url: "https://hamedghadimi.github.io"
 baseurl: "/AM_Endurance"
-remote_theme: mmistakes/minimal-mistakes@4.9.0
+remote_theme: mmistakes/minimal-mistakes@4.19.0
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -13,11 +13,19 @@ author:
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Additive Manufacturing Materials & Process Engineer and Researcher focused on L-PBF & EBM"
   location: "Boston, MA"
-  email: "ghadimi.hamed@gmail.com"
-  LinkedIn: "https://www.linkedin.com/in/hamed-ghadimi/"
-  GitHub: "https://github.com/HamedGhadimi"
-  uri: "https://scholar.google.com/citations?user=iF3bRHMAAAAJ&hl=en"
-  "<a href='https://scholar.google.com/citations?user=iF3bRHMAAAAJ&hl=en'>Google Scholar</a>"
+  links:
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope"
+    url: "mailto:ghadimi.hamed@gmail.com"
+  - label: "LinkedIn"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/in/hamed-ghadimi/"
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/HamedGhadimi"
+  - label: "Google Scholar"
+    icon: "fas fa-fw fa-graduation-cap"
+    url: "https://scholar.google.com/citations?user=iF3bRHMAAAAJ&hl=en"
 
 minimal_mistakes_skin: "air"  # Options: default, air, aqua, contrast, dark, dirt, mint, sunrise
 
