@@ -15,6 +15,16 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/hamed-ghadimi/"
+      location: "Boston, MA"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/HamedGhadimi"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:ghadimi.hamed@gmail.com"
+    - label: "AM Endurance"
+      icon: "fas fa-fw fa-link"
+      url: "https://hamedghadimi.github.io/AM_Endurance"
 
 minimal_mistakes_skin: "air"  # Options: default, air, aqua, contrast, dark, dirt, mint, sunrise
 
