@@ -87,7 +87,7 @@ The map is especially useful for:
 ## Explore the Interactive Map
 ------
 
-<iframe src="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308" width="100%" height="600px" frameborder="0"></iframe> 
+<iframe src="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308" width="940" height="600px" frameborder="0"></iframe> 
 
 ## Join the Conversation
 ------
