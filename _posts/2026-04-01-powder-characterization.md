@@ -8,7 +8,7 @@ tags: [AM, powder, L-PBF, EBM, Additive-Manufacturing]
 toc: true
 toc_label: "Contents"
 header:
-  overlay_image: /AM_Endurance/assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-3.jpg
+  overlay_image: /AM_Endurance/assets/images/Additive-Manufacturing-Metal-Powder-Characteristics-and-Tests.jpeg
   overlay_filter: 0.45
   caption: "Metal Powder Characterization Map — AM Endurance"
 ---
