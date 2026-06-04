@@ -27,20 +27,7 @@ Powder is the foundation of every Metal Additive Manufacturing (AM) build. Befor
 
 Yet powder characterization is one of the most fragmented topics in the field. Standards are scattered across ASTM, ISO, and joint ISO/ASTM committees. Methods range from simple gravity funnels to advanced powder rheometers. And the connection between a measured powder property and what actually happens inside the machine needs more exploration.
 
-
-## About This Work
-------
-
-This project maps the complete characterization framework for metallic powders used in Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting characteristics, test methods, and standards into a single, navigable reference. The objective of this project is to create a practical, decision-oriented reference that connects:
-
-* Each powder characteristic — what it is, why it matters in AM, and how it influences process and part quality
-
-* The test methods used to measure each characteristic — instrument, procedure, result format, and key limitations
-
-* The applicable standards — ASTM and ISO references verified against the two primary AM powder anchor standards: ASTM F3049 and ISO/ASTM 52907
-
-
-## Scope & Prerequisites
+## Scope
 ------
 
 This map focuses specifically on:
@@ -51,8 +38,18 @@ This map focuses specifically on:
 
 * ASTM and ISO standards directly applicable to AM powder qualification
 
-This is a live project — built to the best of my current knowledge and intended to evolve. There may be inaccuracies, and there is always room for improvement.
+> This is a live project — built to the best of my current knowledge and intended to evolve. There may be inaccuracies, and there is always > room for improvement.
 
+## Objectives
+------
+
+This project maps the complete characterization framework for metallic powders used in Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting characteristics, test methods, and standards into a single, navigable reference. The objective of this project is to create a practical, decision-oriented reference that connects:
+
+* Each powder characteristic — what it is, why it matters in AM, and how it influences process and part quality
+
+* The test methods used to measure each characteristic — instrument, procedure, result format, and key limitations
+
+* The applicable standards — ASTM and ISO references verified against the two primary AM powder anchor standards: ASTM F3049 and ISO/ASTM 52907
 
 ## Explore the Interactive Map
 ------
@@ -75,7 +72,6 @@ The map covers 6 primary characteristics:
 * __Spreadability__: Primary test methods are In-Machine Evaluation, Spreading Testbeds, and Rotating Drum / Avalanche Angle.
 
 * __Chemical Composition__: Primary test methods are ICP-OES, XRF, pXRF, LECO ONH & CS
-
 
 ## Read Also
 
