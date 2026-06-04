@@ -38,7 +38,7 @@ This map focuses specifically on:
 
 * ASTM and ISO standards directly applicable to AM powder qualification
 
-> This is a live project — built to the best of my current knowledge and intended to evolve. There may be inaccuracies, and there is always > room for improvement.
+> This is a live project — built to the best of my current knowledge and intended to evolve. There may be inaccuracies, and there is always room for improvement.
 
 ## Objectives
 ------
