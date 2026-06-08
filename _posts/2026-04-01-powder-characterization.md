@@ -54,7 +54,7 @@ This project maps the complete characterization framework for metallic powders u
 ## Explore the Interactive Map
 ------
 
-<iframe src="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308" width="940" height="600px" frameborder="0"></iframe> 
+<iframe src="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308" width="940" height="600px" frameborder="0" allowfullscreen></iframe> 
 
 ## Excecutive Summary
 ------
