@@ -60,8 +60,8 @@ This project maps the complete characterization framework for metallic powders u
 <div id="mapContainer">
     <iframe
         src="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308"
-        width="100%"
-        height="700"
+        width="940"
+        height="600"
         frameborder="0">
     </iframe>
 </div>
@@ -71,28 +71,6 @@ function openFullscreen() {
     document.getElementById("mapContainer").requestFullscreen();
 }
 </script>
-
-
-<!-- 
-<!-- Full screen opening option -->
-<p style="text-align:center;">
-  <a href="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308"
-     target="_blank"
-     class="btn">
-     🔍 Open Fullscreen Interactive Map
-  </a>
-</p>
-
-<iframe
-    src="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308"
-    width="940"
-    height="600"
-    frameborder="0">
-</iframe>
-
--->
-
-
 ## Excecutive Summary
 ------
 
