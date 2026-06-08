@@ -52,9 +52,7 @@ This project maps the complete characterization framework for metallic powders u
 * The applicable standards — ASTM and ISO references verified against the two primary AM powder anchor standards: ASTM F3049 and ISO/ASTM 52907
 
 ## Explore the Interactive Map
-------
-
-<iframe src="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308" width="940" height="600px" frameborder="0"></iframe> 
+------ 
 <!-- Full screen opening option -->
 <p style="text-align:center;">
   <a href="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308"
