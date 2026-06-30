@@ -1,14 +1,15 @@
 ---
 title: "Mapping Defects and Flaws in Metal Additive Manufacturing (L-PBF & EBM)"
-excerpt: "This project maps the defects and flaws found in printed metal parts from Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting each defect's manifestation, root cause, and relationship to other defects into a single, navigable reference."
+excerpt: "This project maps the defects and flaws found in printed metal parts from Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EB-PBF or EBM) — connecting each defect's manifestation, root cause, and relationship to other defects into a single, navigable reference."
 date: 2026-06-29
 permalink: /defects-and-flaws/
 categories: [Defects]
-tags: [AM, defects, flaws, L-PBF, EBM, Additive-Manufacturing]
+tags: [AM, defects, flaws, L-PBF, EBM, EB-LPBF, Additive-Manufacturing]
 toc: true
 toc_label: "Contents"
 header:
-  overlay_image: /assets/images/am_endurance_defects_network_wallpaper.svg
+  <!-- overlay_image: /assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-Header1.jpg-->
+  overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
   overlay_filter: 0.55
   caption: "Metal AM Defects & Flaws Map — AM Endurance"
 ---
@@ -47,7 +48,7 @@ This project maps the defects and flaws found in printed metal parts from Laser 
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="[INSERT KUMU EMBED CODE]"
+  <a href="https://embed.kumu.io/eeec793df838115d0ea4cf06ba29eaec"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -55,7 +56,7 @@ This project maps the defects and flaws found in printed metal parts from Laser 
 </p>
 
 <iframe
-    src="[INSERT KUMU EMBED CODE]"
+    src="https://embed.kumu.io/eeec793df838115d0ea4cf06ba29eaec"
     width="940"
     height="600"
     frameborder="0">
