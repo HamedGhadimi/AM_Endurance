@@ -62,7 +62,7 @@ This project maps the defects and flaws found in printed metal parts from Laser 
     frameborder="0">
 </iframe>
 
-## Excecutive Summary
+## Executive Summary
 ------
 
 The map organizes 26 defects and flaws — plus 2 contributing process phenomena — into 6 root-cause categories:
