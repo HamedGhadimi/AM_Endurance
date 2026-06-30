@@ -12,11 +12,7 @@ plugins:
 
 author:
   name: "Hamed Ghadimi"
-<<<<<<< HEAD
-  avatar: "/assets/images/bio-HamedGhadimi.jpg"
-=======
   avatar: "/assets/images/Hamed Ghadimi2.jpeg"
->>>>>>> 74da19fdffec0597cb8999fbd25f0f3a36702841
   bio: "Additive Manufacturing Materials & Process Engineer and Researcher focused on L-PBF & EBM"
   location: "Boston, MA"
   email: "ghadimi.hamed@gmail.com"
