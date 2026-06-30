@@ -68,7 +68,7 @@ This project maps the complete characterization framework for metallic powders u
     frameborder="0">
 </iframe>
 
-## Excecutive Summary
+## Executive Summary
 ------
 
 The map covers 6 primary characteristics:
