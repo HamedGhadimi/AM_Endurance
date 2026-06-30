@@ -48,7 +48,7 @@ This project maps the defects and flaws found in printed metal parts from Laser 
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/eeec793df838115d0ea4cf06ba29eaec"
+  <a href="https://embed.kumu.io/d65b2ab0fd97ecb72e94a6d9b0a08d0b"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -56,7 +56,7 @@ This project maps the defects and flaws found in printed metal parts from Laser 
 </p>
 
 <iframe
-    src="https://embed.kumu.io/eeec793df838115d0ea4cf06ba29eaec"
+    src="https://embed.kumu.io/d65b2ab0fd97ecb72e94a6d9b0a08d0b"
     width="940"
     height="600"
     frameborder="0">
