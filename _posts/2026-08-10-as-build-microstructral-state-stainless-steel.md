@@ -17,7 +17,7 @@ header:
 ## Introduction
 ------
 
-The as-built condition of a stainless steel AM part is a specific, quantifiable microstructural state. A 316L part pulled straight off the build plate already carries a dislocation density approaching that of 20% cold-worked material, a cellular substructure that does most of the strengthening, and — in precipitation-hardening grades — a phase balance that active heat treatment has to deliberately correct rather than simply complete.
+The as-built condition of a stainless steel AM part is a specific, quantifiable microstructural state. A 316L part pulled straight off the build plate already carries a significant dislocation density, a cellular substructure that does most of the strengthening, and — in precipitation-hardening grades — a phase balance that active heat treatment has to deliberately correct rather than simply complete.
 
 Most references treat "as-built microstructure" as a single line item on the way to the real subject: heat treatment. That framing loses the two things a process or quality engineer actually needs — which as-built states are alloy-specific versus which are common across the stainless steel family, and which as-built states are genuinely fixed by the time the part cools versus which will still move during whatever comes next.
 
