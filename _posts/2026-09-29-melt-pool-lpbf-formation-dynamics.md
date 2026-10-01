@@ -33,7 +33,7 @@ This map focuses specifically on:
 
 The map ends where the stable pool ends. How the pool becomes unstable — spatter, denudation, keyhole collapse, and defect genesis — and what it leaves behind — solidification structure and residual stress — are the subjects of the two companion maps in this Melt Pool sub-series.
 
-> This is a living reference, refined through ongoing review. Several questions on this map are still open in the primary literature — most notably the keyhole threshold criterion — and are presented as contested rather than resolved. The two in-situ monitoring nodes are deliberately high-level and will be anchored to a dedicated monitoring reference in a future revision.
+> This is a living reference, refined through ongoing review. Several questions on this map are still open in the primary literature.
 
 ## Objectives
 ------
@@ -70,7 +70,7 @@ The map organizes 58 elements — 6 branches comprising 51 individual nodes — 
 
 * __Energy Coupling & Absorption__: How laser energy actually gets into the bed — laser–powder interaction, multiple reflection and Fresnel absorption, and powder-bed absorptivity presented as a three-regime curve rather than a material constant (for bare 316L, in-situ calorimetry shows it rising from roughly 0.3 in conduction to roughly 0.78 at keyhole saturation). The branch explains why energy density metrics (VED / AED / LED) are a reporting convenience, not a predictor, and introduces normalized enthalpy as a dimensionally grounded alternative that retains spot size.
 
-* __Governing Physical Phenomena__: The ten forces and transport processes that shape the liquid — conduction heat transfer, latent heat, Marangoni convection, recoil pressure (in its corrected published form), metal vaporization and the vapor plume, surface tension, wetting, melt viscosity, and ambient gas interaction — plus buoyancy, included specifically to explain why it drops out in L-PBF.
+* __Governing Physical Phenomena__: The ten forces and transport processes that shape the liquid — conduction heat transfer, latent heat, Marangoni convection, recoil pressure, metal vaporization and the vapor plume, surface tension, wetting, melt viscosity, and ambient gas interaction — plus buoyancy, included specifically to explain why it drops out in L-PBF.
 
 * __Melt Pool Modes__: Conduction, transition, and keyhole modes, the balling regime at the low-energy / high-speed corner, and the power–velocity process map on which these appear as regions. The keyhole threshold is presented as two competing criteria — normalized enthalpy and laser power density — because the primary literature has not converged on one.
 
