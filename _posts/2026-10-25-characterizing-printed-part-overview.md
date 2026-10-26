@@ -24,6 +24,7 @@ Commetn
 ------
 
 Every qualified AM part comes down to a set of measurements. Is the shape right? Is the surface acceptable? Is the part sound inside? Is the microstructure the one the process was meant to produce, is the chemistry within specification, and what stress state does the part carry? Each of these questions can be answered by several techniques — and on an as-built powder bed fusion part, those techniques frequently disagree.
+
 Characterization is usually organised by instrument: a CT report, a metallography section, a CMM printout. That is how laboratories are organised, but it is not how engineering questions arrive. Porosity is the clearest case: Archimedes, a polished section and X-ray CT all report it, each samples a different volume at a different resolution, and their numbers rarely match. Knowing which quantity you actually need — and why valid methods give different answers for it — comes before choosing the instrument.
 
 ## Scope
@@ -31,9 +32,9 @@ Characterization is usually organised by instrument: a CT report, a metallograph
 
 This map focuses specifically on:
 
-* The as-built printed part — what has to be known about it and which techniques can measure it, with notes on how heat treatment, HIP and surface finishing change what is measured
-* Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EB-PBF), with Ti-6Al-4V as the priority alloy for worked examples, followed by the stainless steels covered in earlier editions
-* Six measurand families — geometry, surface, internal integrity, microstructure, chemistry and residual stress — each tied to the ASTM and ISO standards that define or govern it
+* The as-built printed part — what has to be known about it and which techniques can measure it, with notes on how heat treatment, HIP and surface finishing change what is measured.
+* Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EB-PBF), with Ti-6Al-4V as the priority alloy for worked examples, followed by the stainless steels.
+* Six measurand families — geometry, surface, internal integrity, microstructure, chemistry and residual stress — each tied to the ASTM and ISO standards that define or govern it.
 
 In-situ process monitoring, mechanical testing and powder characterization are outside this map, and lattice structures are treated as notes inside the relevant nodes rather than as a branch of their own. Techniques appear here only as short pointer nodes; their full treatment belongs to the four technique maps that follow in this sub-series.
 
