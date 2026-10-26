@@ -1,0 +1,80 @@
+---
+title: "Characterizing the Printed Part in Metal Additive Manufacturing (L-PBF & EBM) - Overview: What to Measure and How"
+excerpt: "This project maps what has to be known about a printed powder bed fusion part — its geometry, surface, internal integrity, microstructure, chemistry and residual stress — and which techniques can measure each quantity, organised by measurand rather than by instrument, into a single, navigable reference."
+date: 2026-10-25
+permalink: /characterizing-printed-part-overview/
+categories: [Characterization]
+tags: [AM,characterization,metrology,NDE,metallography,L-PBF,EBM,Additive-Manufacturing]
+toc: true
+toc_label: "Contents"
+header:
+  <!-- overlay_image: /assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-Header1.jpg-->
+  overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
+  overlay_filter: 0.55
+  caption: "Characterizing the Printed Part in Metal Additive Manufacturing (L-PBF & EBM) - Overview: What to Measure and How"
+---
+
+<!-- This is a comment — invisible on the website -->
+<!-- 
+Comment
+Commetn
+-->
+
+## Introduction
+------
+
+Every qualified AM part comes down to a set of measurements. Is the shape right? Is the surface acceptable? Is the part sound inside? Is the microstructure the one the process was meant to produce, is the chemistry within specification, and what stress state does the part carry? Each of these questions can be answered by several techniques — and on an as-built powder bed fusion part, those techniques frequently disagree.
+Characterization is usually organised by instrument: a CT report, a metallography section, a CMM printout. That is how laboratories are organised, but it is not how engineering questions arrive. Porosity is the clearest case: Archimedes, a polished section and X-ray CT all report it, each samples a different volume at a different resolution, and their numbers rarely match. Knowing which quantity you actually need — and why valid methods give different answers for it — comes before choosing the instrument.
+
+## Scope
+------
+
+This map focuses specifically on:
+
+* The as-built printed part — what has to be known about it and which techniques can measure it, with notes on how heat treatment, HIP and surface finishing change what is measured
+* Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EB-PBF), with Ti-6Al-4V as the priority alloy for worked examples, followed by the stainless steels covered in earlier editions
+* Six measurand families — geometry, surface, internal integrity, microstructure, chemistry and residual stress — each tied to the ASTM and ISO standards that define or govern it
+
+In-situ process monitoring, mechanical testing and powder characterization are outside this map, and lattice structures are treated as notes inside the relevant nodes rather than as a branch of their own. Techniques appear here only as short pointer nodes; their full treatment belongs to the four technique maps that follow in this sub-series.
+
+> This is a live project — built to the best of my current knowledge and intended to evolve. There may be inaccuracies, and there is always room for improvement.
+
+## Objectives
+------
+
+The objective of this project is to organise part characterization by measurand — what you want to know — rather than by instrument, so that an engineer can trace the chain from a question about the part → the quantity that answers it → the techniques that can measure it → the standard that defines it, and understand why two valid techniques can report different numbers for the same feature. The map connects:
+
+* Each measurand — what the quantity is, why it matters in a powder bed fusion part, and, where relevant, how acceptance limits are reasoned — explained in depth, with an everyday comparison alongside the technical explanation wherever one clarifies it
+* Each measurand to the techniques that can measure it, and each technique to what it can and cannot see — sampled volume, resolution, surface versus bulk, destructive versus non-destructive
+* Each claim to its source — every node carries its peer-reviewed or standards reference directly in the description, and every quantitative value is tied to the alloy and condition it came from
+
+## Explore the Interactive Map
+------ 
+<p style="text-align:left;">
+  <a href="https://embed.kumu.io/103581ee55f29e015189fc95c5ea5c1e"
+     target="_blank"
+     class="btn">
+     🔍 Open Fullscreen Interactive Map
+  </a>
+</p>
+
+<iframe
+    src="https://embed.kumu.io/103581ee55f29e015189fc95c5ea5c1e"
+    width="940"
+    height="600"
+    frameborder="0">
+</iframe>
+
+## Executive Summary
+------
+
+The map organizes 63 elements around a single root question — what do we need to know about a printed part? — through 6 branches comprising 29 measurands, 21 technique pointers and 6 standards, connected through 113 relationships. Colour marks the branch and shape marks the role, so the difference between a quantity to be known, a technique that measures it and a standard that defines it is visible at a glance:
+
+* __Geometry — Dimensional Metrology__: Dimensional accuracy, form error, orientation and location (GD&T per ISO 1101), distortion and warpage, minimum feature size, and internal geometry. The branch explains why "where is the surface" is itself uncertain on a rough as-built face — probe size, optical threshold and CT surface determination each define it differently, so two valid instruments can disagree on the same feature — and why X-ray CT is the only general non-destructive route to internal channels.
+* __Surface — Surface Metrology__: Profile roughness (Ra family, ISO 21920-2), areal texture (Sa family, ISO 25178-2), waviness, surface features such as adhered particles, spatter and staircase steps, and up-skin versus down-skin effects. Ra is the most reported AM surface parameter, but very different surfaces can share one Ra; areal parameters such as Ssk separated up-skin from down-skin Ti-6Al-4V surfaces (Triantaphyllou et al., 2015), and metrology CT gave Sa within 0.5% of focus variation on EBM Ti-6Al-4V in an interlaboratory comparison (Townsend et al., 2018).
+* __Internal Integrity — NDE__: Bulk density and porosity fraction, pore size, shape and location, cracks, inclusions and trapped powder, with ASTM F3637, ASTM E3166 and ISO/ASTM TR 52905 as the governing guides. The branch sets out why the density methods disagree, and why acceptance criteria usually limit maximum pore size and distance from the surface rather than total porosity: fatigue cracks usually start at defects, and HIP shrinks internal pores while surface-connected ones stay open (Tammas-Williams et al., 2016).
+* __Microstructure — Metallography & Microscopy__: Grain size and morphology, crystallographic texture, phases and phase fractions, melt pool boundaries and track geometry, sub-grain cells and segregation, and precipitates — each matched to the length scale of the technique that can see it, from optical microscopy to SEM, EBSD, XRD and TEM. Worked examples include columnar prior-β grains filled with α′ martensite in L-PBF Ti-6Al-4V and metastable austenite in as-built L-PBF 17-4PH.
+* __Composition — Chemical Analysis__: Major alloying elements, interstitials (O, N, H), carbon and sulfur, and volatile-element loss, with the Ti-6Al-4V limits of ASTM F2924 and F3001 and the bulk test methods they name. Part chemistry can drift from the powder certificate: aluminium evaporates from the melt, especially in EB-PBF, and oxygen rises with powder reuse (Tang et al., 2015), which makes it the chemistry most likely to drift toward its limit in production, especially for ELI parts.
+* __Residual Stress — Stress Measurement__: Type I macro, type II intergranular and type III intragranular stress, following the Withers & Bhadeshia classification by the length scale over which each balances. The branch's central rule is to match the method's gauge volume to the stress type of interest, and it links macro stress to the distortion, form error and cracking it causes in the other branches.
+
+This is the overview map of the AM Endurance sub-series Characterizing the Printed Part. Four technique maps follow, each giving full treatment to the instruments that appear here only as pointers: geometry and surface metrology; non-destructive evaluation; metallography, microscopy and residual stress; and chemical analysis.
