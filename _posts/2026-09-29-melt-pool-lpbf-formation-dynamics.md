@@ -49,7 +49,7 @@ The objective of this project is to build the mechanism layer between the machin
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/0a727bdf61141dca941f9bb365819b6a"
+  <a href="https://embed.kumu.io/3e396683c7d0b55bea6612617f10aa69"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -57,7 +57,7 @@ The objective of this project is to build the mechanism layer between the machin
 </p>
 
 <iframe
-    src="https://embed.kumu.io/0a727bdf61141dca941f9bb365819b6a"
+    src="https://embed.kumu.io/3e396683c7d0b55bea6612617f10aa69"
     width="940"
     height="600"
     frameborder="0">
