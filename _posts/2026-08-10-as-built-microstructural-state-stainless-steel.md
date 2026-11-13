@@ -55,9 +55,10 @@ The objective of this project is to create a practical, decision-oriented refere
 
 <iframe
     src="https://embed.kumu.io/60d4aa3fbc14e3f1f89e54cfb39ff608"
-    width="940"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="As-Built Stainless Steel Microstructure — interactive map">
 </iframe>
 
 ## Executive Summary

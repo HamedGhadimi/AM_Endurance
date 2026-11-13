@@ -59,9 +59,10 @@ The objective of this project is to give an engineer the specific physical mecha
 
 <iframe
     src="https://embed.kumu.io/f70b087914688773ccdc6af239b03708"
-    width="940"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="Melt Pool Instability & Defect Genesis — interactive map">
 </iframe>
 
 ## Executive Summary

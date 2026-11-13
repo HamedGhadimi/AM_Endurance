@@ -58,9 +58,10 @@ This project maps the defects and flaws found in printed metal parts from Laser 
 
 <iframe
     src="https://embed.kumu.io/d65b2ab0fd97ecb72e94a6d9b0a08d0b"
-    width="940"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="Defects & Flaws — interactive map">
 </iframe>
 
 ## Executive Summary

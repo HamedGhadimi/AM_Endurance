@@ -58,9 +58,10 @@ The objective of this project is to organise part characterization by measurand 
 
 <iframe
     src="https://embed.kumu.io/103581ee55f29e015189fc95c5ea5c1e"
-    width="940"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="Characterizing the Printed Part: Overview — interactive map">
 </iframe>
 
 ## Executive Summary

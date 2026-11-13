@@ -61,9 +61,10 @@ The objective of this project is to build the mechanism layer between the machin
 
 <iframe
     src="https://embed.kumu.io/3e396683c7d0b55bea6612617f10aa69"
-    width="940"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="Melt Pool Formation & Dynamics — interactive map">
 </iframe>
 
 ## Executive Summary
