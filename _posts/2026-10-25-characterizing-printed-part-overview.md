@@ -8,17 +8,10 @@ tags: [AM,characterization,metrology,NDE,metallography,L-PBF,EBM,Additive-Manufa
 toc: true
 toc_label: "Contents"
 header:
-  <!-- overlay_image: /assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-Header1.jpg-->
   overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
   overlay_filter: 0.55
   caption: "Characterizing the Printed Part in Metal Additive Manufacturing (L-PBF & EBM) - Overview: What to Measure and How"
 ---
-
-<!-- This is a comment — invisible on the website -->
-<!-- 
-Comment
-Commetn
--->
 
 ## Introduction
 ------
