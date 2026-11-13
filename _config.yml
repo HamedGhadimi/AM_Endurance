@@ -6,8 +6,10 @@ baseurl: "/AM_Endurance"
 remote_theme: mmistakes/minimal-mistakes@4.12.1
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
+  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
 
 author:
   name: "Hamed Ghadimi"
