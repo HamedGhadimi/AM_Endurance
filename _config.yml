@@ -20,6 +20,14 @@ author:
   linkedin: "hamed-ghadimi"
   github: "HamedGhadimi"
 
+# Footer "Follow" links. Since theme 4.13 the footer no longer reads
+# author.github, so the GitHub link is listed here to keep it.
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/HamedGhadimi"
+
 minimal_mistakes_skin: "air"  # Options: default, air, aqua, contrast, dark, dirt, mint, sunrise
 
 paginate: 5
