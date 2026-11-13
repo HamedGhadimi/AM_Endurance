@@ -1,10 +1,12 @@
 ---
-title: "Mapping Defects and Flaws in Metal Additive Manufacturing (L-PBF & EBM)"
+title: "Defects and Flaws in Metal Additive Manufacturing (L-PBF & EB-PBF)"
+short_title: "Defects & Flaws"
 excerpt: "This project maps the defects and flaws found in printed metal parts from Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EB-PBF or EBM) — connecting each defect's manifestation, root cause, and relationship to other defects into a single, navigable reference."
 date: 2026-06-29
 permalink: /defects-and-flaws/
 categories: [Defects]
-tags: [AM, defects, flaws, L-PBF, EBM, EB-LPBF, Additive-Manufacturing]
+tags: [l-pbf, eb-pbf]
+kumu_url: "https://embed.kumu.io/d65b2ab0fd97ecb72e94a6d9b0a08d0b"
 toc: true
 toc_label: "Contents"
 header:

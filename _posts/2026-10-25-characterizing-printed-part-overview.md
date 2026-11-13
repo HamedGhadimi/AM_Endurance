@@ -1,10 +1,14 @@
 ---
-title: "Characterizing the Printed Part in Metal Additive Manufacturing (L-PBF & EBM) - Overview: What to Measure and How"
+title: "Characterizing the Printed Part in Metal Additive Manufacturing (L-PBF & EB-PBF) — Overview: What to Measure and How"
+short_title: "Characterizing the Printed Part: Overview"
 excerpt: "This project maps what has to be known about a printed powder bed fusion part — its geometry, surface, internal integrity, microstructure, chemistry and residual stress — and which techniques can measure each quantity, organised by measurand rather than by instrument, into a single, navigable reference."
 date: 2026-10-25
 permalink: /characterizing-printed-part-overview/
-categories: [Characterization]
-tags: [AM,characterization,metrology,NDE,metallography,L-PBF,EBM,Additive-Manufacturing]
+categories: ["Inspection & Characterization"]
+tags: [l-pbf, eb-pbf]
+series: "Inspection & Characterization"
+series_order: 1
+kumu_url: "https://embed.kumu.io/103581ee55f29e015189fc95c5ea5c1e"
 toc: true
 toc_label: "Contents"
 header:

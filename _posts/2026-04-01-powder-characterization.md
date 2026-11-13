@@ -1,10 +1,12 @@
 ---
-title: "Mapping Metal Powder Characterization in Additive Manufacturing (L-PBF & EBM)"
+title: "Powder Characterization in Metal Additive Manufacturing (L-PBF & EB-PBF)"
+short_title: "Powder Characterization"
 excerpt: "This project maps the complete characterization framework for metallic powders used in Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting characteristics, test methods, and standards into a single, navigable reference."
 date: 2026-04-01
 permalink: /powder-characterization/
-categories: [Powder]
-tags: [AM, powder, L-PBF, EBM, Additive-Manufacturing]
+categories: [Feedstock]
+tags: [l-pbf, eb-pbf]
+kumu_url: "https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308"
 toc: true
 toc_label: "Contents"
 header:
