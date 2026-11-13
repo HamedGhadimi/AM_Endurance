@@ -1,6 +1,6 @@
 # Site settings (this is a comment)
 title: AM Endurance
-description: Metal Additive Manufacturing (L-PBF & EB-PBF) Technical Maps
+description: "Interactive, source-traced knowledge maps of powder bed fusion, for ever-learning materials & process engineers and researchers."
 url: "https://hamedghadimi.github.io"
 baseurl: "/AM_Endurance"
 copyright_url: "https://hamedghadimi.github.io/AM_Endurance/"  # footer copyright link (theme defaults to url)
