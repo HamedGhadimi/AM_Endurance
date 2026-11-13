@@ -18,6 +18,8 @@ claude.ai Project; each session Hamed pastes a brief.
 - Use only plugins supported by GitHub Pages.
 - Before deleting any file, list it and wait for confirmation.
 - Explain changes briefly in plain language.
+- Before any Ruby/bundle command in the shell, run
+  `eval "$(rbenv init - zsh)"` (in the same shell invocation).
 - After changes, run `bundle exec jekyll build` and report the result.
 - One logical change per commit, with clear messages.
 - Internal files (CLAUDE.md, README, LICENSE, Gemfile, etc.) must stay
