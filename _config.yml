@@ -11,6 +11,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from  # enables `redirect_from:` in front matter (for approved permalink fixes)
 
 author:
   name: "Hamed Ghadimi"
