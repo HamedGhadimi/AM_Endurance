@@ -32,10 +32,19 @@ author:
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=iF3bRHMAAAAJ&hl=en"
 
-# Footer "Follow" links. Since theme 4.13 the footer no longer reads
-# author.github, so the GitHub link is listed here to keep it.
+# Footer "Follow" links, in display order. The theme appends the RSS
+# "Feed" link automatically (keep it: do not set atom_feed.hide).
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hamed-ghadimi"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=iF3bRHMAAAAJ&hl=en"
+    - label: "Newsletter"
+      icon: "fas fa-fw fa-newspaper"
+      url: "https://www.linkedin.com/newsletters/am-endurance-7325356841809375233/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HamedGhadimi"
