@@ -24,6 +24,20 @@ minimal_mistakes_skin: "air"  # Options: default, air, aqua, contrast, dark, dir
 paginate: 5
 paginate_path: "/page:num/"
 
+# Files and folders Jekyll must NOT publish to the site.
+# Setting this replaces Jekyll's built-in list, so its defaults are repeated here.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache
+  - README.md
+  - LICENSE
+  - CLAUDE.md
+
 defaults:
   - scope:
       path: ""
