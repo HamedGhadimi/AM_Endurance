@@ -3,7 +3,8 @@ title: "As-Built Microstructural State of Stainless Steel in Metal Additive Manu
 short_title: "As-Built Stainless Steel Microstructure"
 excerpt: "This project maps the as-built, pre-heat-treatment microstructural and mechanical state of austenitic and precipitation-hardening stainless steel produced by Laser Powder Bed Fusion and Electron Beam Powder Bed Fusion — connecting grain morphology, sub-grain substructure, phase imbalance, residual stress, and defects into a single, navigable reference."
 date: 2026-08-10
-permalink: /as-build-microstructral-state-stainless-steel/
+permalink: /as-built-microstructural-state-stainless-steel/
+redirect_from: [/as-build-microstructral-state-stainless-steel/]
 categories: ["Materials & Microstructure"]
 tags: [l-pbf, eb-pbf, stainless-steel]
 series: "Steels in PBF"
