@@ -1,0 +1,8 @@
+# Top navigation menu (read by the Minimal Mistakes theme).
+main:
+  - title: "Maps"
+    url: /maps/
+  - title: "About"
+    url: /about/
+  - title: "Subscribe"
+    url: https://www.linkedin.com/newsletters/am-endurance-7325356841809375233/
