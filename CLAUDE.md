@@ -3,8 +3,8 @@
 Jekyll site for AM Endurance: interactive Kumu knowledge maps on metal
 additive manufacturing (powder bed fusion). Owner: Hamed Ghadimi.
 
-Hosting: classic GitHub Pages, deployed from `main`. Jekyll 3.9.x via
-the `github-pages` gem. Theme: Minimal Mistakes via `remote_theme`.
+Hosting: classic GitHub Pages, deployed from `main`. Jekyll version pinned by
+the `github-pages` gem (currently 3.10.x). Theme: Minimal Mistakes via `remote_theme`.
 
 Project Phoenix: staged site rebuild. The master plan lives in Hamed's
 claude.ai Project; each session Hamed pastes a brief.
