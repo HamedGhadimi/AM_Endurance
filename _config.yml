@@ -73,5 +73,5 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: map  # = theme `single` + series box (see _layouts/map.html)
       author_profile: true
