@@ -2,6 +2,8 @@
 title: "Maps"
 layout: single
 permalink: /maps/
+redirect_from:
+  - /page2/  # old paginated home page (pagination removed in Phoenix 1.8)
 author_profile: true
 ---
 

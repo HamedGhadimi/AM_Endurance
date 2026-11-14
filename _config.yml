@@ -7,7 +7,6 @@ copyright_url: "https://hamedghadimi.github.io/AM_Endurance/"  # footer copyrigh
 remote_theme: mmistakes/minimal-mistakes@4.28.1
 plugins:
   - jekyll-remote-theme
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
@@ -50,9 +49,6 @@ footer:
       url: "https://github.com/HamedGhadimi"
 
 minimal_mistakes_skin: "air"  # Options: default, air, aqua, contrast, dark, dirt, mint, sunrise
-
-paginate: 5
-paginate_path: "/page:num/"
 
 # Files and folders Jekyll must NOT publish to the site.
 # Setting this replaces Jekyll's built-in list, so its defaults are repeated here.
