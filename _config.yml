@@ -16,7 +16,7 @@ plugins:
 author:
   name: "Hamed Ghadimi"
   avatar: "/assets/images/hamed-ghadimi.jpeg"
-  bio: "Additive Manufacturing Materials & Process Engineer and Researcher focused on L-PBF & EBM"
+  bio: "Additive Manufacturing Materials & Process Engineer and Researcher focused on L-PBF & EB-PBF"
   location: "Boston, MA"  # shown as plain text with a pin icon (the theme has no link for it)
   links:
     - label: "Email"
