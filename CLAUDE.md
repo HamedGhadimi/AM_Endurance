@@ -35,8 +35,13 @@ claude.ai Project; each session Hamed pastes a brief.
 - Navigation: Maps (/maps/), About (/about/), Subscribe (LinkedIn
   newsletter: https://www.linkedin.com/newsletters/am-endurance-7325356841809375233/).
 - Planned URLs: /maps/, /series/melt-pool/, /series/inspection/,
-  /series/steels/, /about/, /about/project/. Article permalinks never
+  /about/, /about/project/. Article permalinks never
   change (except an approved typo fix, always with a redirect).
+- Series (in `_data/series.yml`): two, Melt Pool and Inspection &
+  Characterization. A series is a deliberately designed reading
+  sequence only; do not create one just to group related maps.
+  Planned maps that belong to no series go in the `planned:` list of
+  their topic in `_data/topics.yml` (shown under "Coming soon" on /maps/).
 - Topics, exactly one per map in `categories`: Feedstock, Process
   Physics, Defects, Materials & Microstructure, Post-Processing,
   Inspection & Characterization.
