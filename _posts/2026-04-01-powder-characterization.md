@@ -80,6 +80,4 @@ The map covers 6 primary characteristics:
 
 * __Chemical Composition__: Primary test methods are ICP-OES, XRF, pXRF, LECO ONH & CS
 
-## Read Also
-
 *Originally published on [LinkedIn](https://www.linkedin.com/pulse/mapping-metal-powder-characterization-additive-l-pbf-ghadimi-ph-d--v91se)*
