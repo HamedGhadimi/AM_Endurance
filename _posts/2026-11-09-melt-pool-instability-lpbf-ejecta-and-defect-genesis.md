@@ -32,7 +32,7 @@ This map focuses specifically on:
 * Laser Powder Bed Fusion (L-PBF) only — electron-beam melt-pool behaviour is deferred to a dedicated future edition
 * Mechanism-level physics that applies across alloy families, with alloy- and rig-specific numbers stated together with the conditions under which they were measured
 
-The map ends at the moment a defect is created. The stable pool it starts from is the subject of the first map in this sub-series, [**Melt Pool in Metal Additive Manufacturing (L-PBF) - Formation & Dynamics**]({{ site.baseurl }}{% post_url 2026-09-29-melt-pool-lpbf-formation-dynamics %}), and the finished-part catalogue of defects — how they are classified and detected — belongs to [**Mapping Defects and Flaws in Metal Additive Manufacturing (L-PBF & EBM)**]({{ site.baseurl }}{% post_url 2026-06-29-defects-and-flaws %}).
+The map ends at the moment a defect is created. The stable pool it starts from is the subject of the first map in this sub-series, [**Melt Pool in Metal Additive Manufacturing (L-PBF) — Formation & Dynamics**]({{ site.baseurl }}{% post_url 2026-09-29-melt-pool-lpbf-formation-dynamics %}), and the finished-part catalogue of defects — how they are classified and detected — belongs to [**Defects and Flaws in Metal Additive Manufacturing (L-PBF & EB-PBF)**]({{ site.baseurl }}{% post_url 2026-06-29-defects-and-flaws %}).
 
 
 > This is a live project — built to the best of my current knowledge and intended to evolve. There may be inaccuracies, and there is always room for improvement.
