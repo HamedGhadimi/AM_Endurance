@@ -1,0 +1,55 @@
+# Map series. Entries are listed in reading order; "Part X of Y" is
+# computed from position in this list (not from posts' series_order).
+#
+# Published entry: `post` = the post's permalink (exactly as in its front matter).
+#   Title, link and excerpt are read from the post itself.
+# Planned entry: `title`, `status: planned`, and `topic` (a name from
+#   _data/topics.yml, so /maps/ can list it under "Coming soon").
+- id: melt-pool
+  title: "Melt Pool"
+  url: /series/melt-pool/
+  description: "Three maps that follow the L-PBF melt pool from stable formation, through instability and defect genesis, to the microstructure and residual stress it leaves behind."
+  entries:
+    - post: /melt-pool-lpbf-formation-dynamics/
+    - post: /melt-pool-instability-lpbf-ejecta-defect-genesis/
+    - title: "Melt Pool to As-Built Microstructure"
+      status: planned
+      topic: "Materials & Microstructure"
+
+- id: inspection
+  title: "Inspection & Characterization"
+  url: /series/inspection/
+  description: "What to measure on a printed powder bed fusion part, and how: an overview organized by measurand, followed by maps for individual techniques."
+  entries:
+    - post: /characterizing-printed-part-overview/
+    - title: "Dimensional Measurement & CMM"
+      status: planned
+      topic: "Inspection & Characterization"
+    - title: "Surface Roughness"
+      status: planned
+      topic: "Inspection & Characterization"
+    - title: "Porosity & Micro-CT"
+      status: planned
+      topic: "Inspection & Characterization"
+    - title: "Metallography & Micrographs"
+      status: planned
+      topic: "Inspection & Characterization"
+    - title: "SEM & EBSD"
+      status: planned
+      topic: "Inspection & Characterization"
+    - title: "Chemical Analysis"
+      status: planned
+      topic: "Inspection & Characterization"
+    - title: "Residual Stress Measurement"
+      status: planned
+      topic: "Inspection & Characterization"
+
+- id: steels
+  title: "Steels in PBF"
+  url: /series/steels/
+  description: "Stainless steels in L-PBF and EB-PBF, from the as-built state to post-build heat treatment."
+  entries:
+    - post: /as-built-microstructural-state-stainless-steel/
+    - title: "Post-Build Heat Treatment of Steels"
+      status: planned
+      topic: "Post-Processing"
