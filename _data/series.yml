@@ -43,13 +43,3 @@
     - title: "Residual Stress Measurement"
       status: planned
       topic: "Inspection & Characterization"
-
-- id: steels
-  title: "Steels in PBF"
-  url: /series/steels/
-  description: "Stainless steels in L-PBF and EB-PBF, from the as-built state to post-build heat treatment."
-  entries:
-    - post: /as-built-microstructural-state-stainless-steel/
-    - title: "Post-Build Heat Treatment of Steels"
-      status: planned
-      topic: "Post-Processing"

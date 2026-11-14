@@ -7,8 +7,6 @@ permalink: /as-built-microstructural-state-stainless-steel/
 redirect_from: [/as-build-microstructral-state-stainless-steel/]
 categories: ["Materials & Microstructure"]
 tags: [l-pbf, eb-pbf, stainless-steel]
-series: "Steels in PBF"
-series_order: 2
 kumu_url: "https://embed.kumu.io/5e76d10b8859f0325c8b4d6d6f8aa301"
 toc: true
 toc_label: "Contents"
