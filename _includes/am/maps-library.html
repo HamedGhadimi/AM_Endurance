@@ -24,13 +24,30 @@
 {%- else %}
 <div class="am-coming-soon">
 <p class="am-coming-soon__label">Coming soon</p>
+{%- comment -%}
+  Planned titles come from series entries (status planned, matching topic)
+  and from the topic's own `planned:` list. am_seen tracks titles already
+  listed so each appears once (the series version, with its link, wins).
+{%- endcomment -%}
+{%- assign am_seen = "|" -%}
 {%- capture am_planned -%}
 {%- for am_s in site.data.series -%}
 {%- for am_e in am_s.entries -%}
 {%- if am_e.status == "planned" and am_e.topic == am_t.name -%}
+{%- assign am_key = "|" | append: am_e.title | append: "|" -%}
+{%- unless am_seen contains am_key -%}
+{%- assign am_seen = am_seen | append: am_e.title | append: "|" -%}
 <li>{{ am_e.title | escape }} <span class="am-coming-soon__series">· <a href="{{ am_s.url | relative_url }}">{{ am_s.title | escape }} series</a></span></li>
+{%- endunless -%}
 {%- endif -%}
 {%- endfor -%}
+{%- endfor -%}
+{%- for am_title in am_t.planned -%}
+{%- assign am_key = "|" | append: am_title | append: "|" -%}
+{%- unless am_seen contains am_key -%}
+{%- assign am_seen = am_seen | append: am_title | append: "|" -%}
+<li>{{ am_title | escape }}</li>
+{%- endunless -%}
 {%- endfor -%}
 {%- endcapture -%}
 {%- if am_planned != "" %}
