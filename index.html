@@ -1,8 +1,96 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+title: "Metal Additive Manufacturing, mapped."
+excerpt: "Interactive, source-traced knowledge maps of powder bed fusion, for ever-learning materials & process engineers and researchers."
 header:
-  overlay_color: "#333"
-  overlay_filter: 0.5
-  tagline: "Technical research on powder characterization and additive manufacturing"
+  overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
+  overlay_filter: 0.55
+  actions:
+    - label: "Explore the maps"
+      url: /maps/
+    - label: "Subscribe on LinkedIn"
+      url: "https://www.linkedin.com/newsletters/am-endurance-7325356841809375233/"
+knowledge_map:
+  - image_path: /assets/images/kumu-map-melt-pool.webp
+    alt: "AM Endurance knowledge map of the L-PBF melt pool: a colour-coded network linking energy coupling, process parameters, physical phenomena, melt pool geometry, melt pool modes, and observation methods."
+    title: "What is a knowledge map?"
+    excerpt: "Each map is a network of the concepts, mechanisms, parameters and methods that make up one part of powder bed fusion, connected by how they relate, including the cause-and-effect links that cut across branches. Click any element to read what it is, why it matters, and the peer-reviewed source behind it."
+    url: /melt-pool-lpbf-formation-dynamics/
+    btn_label: "Open an example map →"
+    btn_class: "btn--primary"
 ---
+{%- comment -%}
+  Landing page (splash layout). The hero (title, tagline, buttons) comes from
+  the front matter above; the sections below appear in this order.
+{%- endcomment -%}
+
+{%- comment -%} b) What is a knowledge map? (image left, text right) {%- endcomment -%}
+<section class="am-home-section am-home-intro">
+{% include feature_row id="knowledge_map" type="left" %}
+</section>
+
+{%- comment -%} c) Browse by series {%- endcomment -%}
+<section class="am-home-section" aria-labelledby="browse-by-series">
+<h2 id="browse-by-series">Browse by series</h2>
+<div class="am-grid am-grid--3">
+{%- for am_s in site.data.series %}
+{% include am/series-card.html series=am_s level=3 %}
+{%- endfor %}
+</div>
+</section>
+
+{%- comment -%} d) From powder to qualified part (topics from _data/topics.yml) {%- endcomment -%}
+<section class="am-home-section" aria-labelledby="powder-to-part">
+<h2 id="powder-to-part">From powder to qualified part</h2>
+{% include am/topic-chain.html %}
+</section>
+
+{%- comment -%} e) Latest map (newest post) {%- endcomment -%}
+{%- assign am_latest = site.posts | first -%}
+{%- if am_latest %}
+<section class="am-home-section" aria-labelledby="latest-map">
+<h2 id="latest-map">Latest map</h2>
+<div class="am-grid">
+{% include am/map-card.html post=am_latest level=3 %}
+</div>
+</section>
+{%- endif %}
+
+{%- comment -%} f) How the maps are built {%- endcomment -%}
+<section class="am-home-section" aria-labelledby="how-built">
+<h2 id="how-built">How the maps are built</h2>
+<div class="am-grid am-grid--3 am-points">
+<div class="am-point">
+<h3 class="am-point__title">Traced to sources</h3>
+<p>Every quantitative claim traces to peer-reviewed literature or ASTM/ISO standards.</p>
+</div>
+<div class="am-point">
+<h3 class="am-point__title">Numbers with their conditions</h3>
+<p>Values are stated with the alloy, process conditions and measurement method they came from.</p>
+</div>
+<div class="am-point">
+<h3 class="am-point__title">Open questions stay open</h3>
+<p>Where the science is contested, the map says so.</p>
+</div>
+</div>
+</section>
+
+{%- comment -%} g) About the author {%- endcomment -%}
+<section class="am-home-section" aria-labelledby="about-author">
+<h2 id="about-author">About the author</h2>
+<div class="am-author">
+<img class="am-author__avatar" src="{{ site.author.avatar | relative_url }}" alt="Portrait of Hamed Ghadimi" width="96" height="96" loading="lazy">
+<div class="am-author__body">
+<p class="am-author__name">Hamed Ghadimi, Ph.D.</p>
+<p>Additive manufacturing materials &amp; process engineer, focused on L-PBF and EB-PBF: melt pool dynamics, defect control, and part qualification.</p>
+<p class="am-author__more"><a href="{{ '/about/' | relative_url }}">About Hamed →</a></p>
+</div>
+</div>
+</section>
+
+{%- comment -%} h) Subscribe {%- endcomment -%}
+<section class="am-home-section am-subscribe" aria-labelledby="subscribe">
+<h2 id="subscribe">Subscribe</h2>
+<p>New maps arrive first through the AM Endurance newsletter on LinkedIn.</p>
+<p><a class="btn btn--primary" href="https://www.linkedin.com/newsletters/am-endurance-7325356841809375233/">Subscribe on LinkedIn</a></p>
+</section>
