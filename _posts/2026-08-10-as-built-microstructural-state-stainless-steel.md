@@ -9,7 +9,7 @@ categories: ["Materials & Microstructure"]
 tags: [l-pbf, eb-pbf, stainless-steel]
 series: "Steels in PBF"
 series_order: 2
-kumu_url: "https://embed.kumu.io/60d4aa3fbc14e3f1f89e54cfb39ff608"
+kumu_url: "https://embed.kumu.io/5e76d10b8859f0325c8b4d6d6f8aa301"
 toc: true
 toc_label: "Contents"
 header:
@@ -45,7 +45,7 @@ The objective of this project is to create a practical, decision-oriented refere
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/60d4aa3fbc14e3f1f89e54cfb39ff608"
+  <a href="https://embed.kumu.io/5e76d10b8859f0325c8b4d6d6f8aa301"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -53,7 +53,7 @@ The objective of this project is to create a practical, decision-oriented refere
 </p>
 
 <iframe
-    src="https://embed.kumu.io/60d4aa3fbc14e3f1f89e54cfb39ff608"
+    src="https://embed.kumu.io/5e76d10b8859f0325c8b4d6d6f8aa301"
     width="100%"
     height="600"
     style="border:0"

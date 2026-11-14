@@ -6,7 +6,7 @@ date: 2026-04-01
 permalink: /powder-characterization/
 categories: [Feedstock]
 tags: [l-pbf, eb-pbf]
-kumu_url: "https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308"
+kumu_url: "https://embed.kumu.io/427e39903bf49c4d9333eda178da6368"
 toc: true
 toc_label: "Contents"
 header:
@@ -48,7 +48,7 @@ This project maps the complete characterization framework for metallic powders u
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308"
+  <a href="https://embed.kumu.io/427e39903bf49c4d9333eda178da6368"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -56,7 +56,7 @@ This project maps the complete characterization framework for metallic powders u
 </p>
 
 <iframe
-    src="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308"
+    src="https://embed.kumu.io/427e39903bf49c4d9333eda178da6368"
     width="100%"
     height="600"
     style="border:0"

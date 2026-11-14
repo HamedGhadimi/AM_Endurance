@@ -8,7 +8,7 @@ categories: ["Inspection & Characterization"]
 tags: [l-pbf, eb-pbf]
 series: "Inspection & Characterization"
 series_order: 1
-kumu_url: "https://embed.kumu.io/103581ee55f29e015189fc95c5ea5c1e"
+kumu_url: "https://embed.kumu.io/157c9c99438b699cdb2b7bdeecf3596e"
 toc: true
 toc_label: "Contents"
 header:
@@ -48,7 +48,7 @@ The objective of this project is to organise part characterization by measurand 
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/103581ee55f29e015189fc95c5ea5c1e"
+  <a href="https://embed.kumu.io/157c9c99438b699cdb2b7bdeecf3596e"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -56,7 +56,7 @@ The objective of this project is to organise part characterization by measurand 
 </p>
 
 <iframe
-    src="https://embed.kumu.io/103581ee55f29e015189fc95c5ea5c1e"
+    src="https://embed.kumu.io/157c9c99438b699cdb2b7bdeecf3596e"
     width="100%"
     height="600"
     style="border:0"

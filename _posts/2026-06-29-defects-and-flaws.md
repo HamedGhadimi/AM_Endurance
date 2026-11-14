@@ -6,7 +6,7 @@ date: 2026-06-29
 permalink: /defects-and-flaws/
 categories: [Defects]
 tags: [l-pbf, eb-pbf]
-kumu_url: "https://embed.kumu.io/d65b2ab0fd97ecb72e94a6d9b0a08d0b"
+kumu_url: "https://embed.kumu.io/9d124760e11f3ba9951df86e74eae0e4"
 toc: true
 toc_label: "Contents"
 header:
@@ -48,7 +48,7 @@ This project maps the defects and flaws found in printed metal parts from Laser 
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/d65b2ab0fd97ecb72e94a6d9b0a08d0b"
+  <a href="https://embed.kumu.io/9d124760e11f3ba9951df86e74eae0e4"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -56,7 +56,7 @@ This project maps the defects and flaws found in printed metal parts from Laser 
 </p>
 
 <iframe
-    src="https://embed.kumu.io/d65b2ab0fd97ecb72e94a6d9b0a08d0b"
+    src="https://embed.kumu.io/9d124760e11f3ba9951df86e74eae0e4"
     width="100%"
     height="600"
     style="border:0"

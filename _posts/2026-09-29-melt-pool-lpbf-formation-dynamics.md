@@ -8,7 +8,7 @@ categories: [Process Physics]
 tags: [l-pbf]
 series: "Melt Pool"
 series_order: 1
-kumu_url: "https://embed.kumu.io/3e396683c7d0b55bea6612617f10aa69"
+kumu_url: "https://embed.kumu.io/8077cff51c13e0525df6de508a5d9741"
 toc: true
 toc_label: "Contents"
 header:
@@ -51,7 +51,7 @@ The objective of this project is to build the mechanism layer between the machin
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/3e396683c7d0b55bea6612617f10aa69"
+  <a href="https://embed.kumu.io/8077cff51c13e0525df6de508a5d9741"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -59,7 +59,7 @@ The objective of this project is to build the mechanism layer between the machin
 </p>
 
 <iframe
-    src="https://embed.kumu.io/3e396683c7d0b55bea6612617f10aa69"
+    src="https://embed.kumu.io/8077cff51c13e0525df6de508a5d9741"
     width="100%"
     height="600"
     style="border:0"
