@@ -1,0 +1,32 @@
+{%- comment -%}
+  Finds the series that contains a post, by permalink (include.url).
+  Sets (for the caller): am_series, am_pos, am_total, am_prev_post, am_next_post.
+  Part numbers come from position in _data/series.yml, not series_order.
+  Previous/next are the nearest PUBLISHED entries (planned ones are skipped).
+{%- endcomment -%}
+{%- assign am_series = nil -%}
+{%- assign am_pos = 0 -%}
+{%- assign am_total = 0 -%}
+{%- assign am_prev_post = nil -%}
+{%- assign am_next_post = nil -%}
+{%- for am_s in site.data.series -%}
+  {%- for am_e in am_s.entries -%}
+    {%- if am_e.post and am_e.post == include.url -%}
+      {%- assign am_series = am_s -%}
+      {%- assign am_pos = forloop.index -%}
+      {%- assign am_total = forloop.length -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if am_series -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- if am_series -%}
+  {%- for am_e in am_series.entries -%}
+    {%- if am_e.post -%}
+      {%- assign am_lookup = site.posts | where: "url", am_e.post | first -%}
+      {%- if am_lookup -%}
+        {%- if forloop.index < am_pos -%}{%- assign am_prev_post = am_lookup -%}{%- endif -%}
+        {%- if forloop.index > am_pos and am_next_post == nil -%}{%- assign am_next_post = am_lookup -%}{%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}

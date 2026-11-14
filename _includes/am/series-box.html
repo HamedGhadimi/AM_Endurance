@@ -1,0 +1,17 @@
+{%- comment -%}
+  Small series box shown at the top of a post (include.url, default page.url).
+  Renders nothing if the post is not in any series in _data/series.yml.
+{%- endcomment -%}
+{%- assign am_box_url = include.url | default: page.url -%}
+{%- include am/series-locate.html url=am_box_url -%}
+{%- if am_series -%}
+<nav class="am-series-box" aria-label="{{ am_series.title | escape }} series">
+<p class="am-series-box__label"><a href="{{ am_series.url | relative_url }}">{{ am_series.title | escape }} series</a> · Part {{ am_pos }} of {{ am_total }}</p>
+{%- if am_prev_post or am_next_post %}
+<p class="am-series-box__nav">
+{%- if am_prev_post -%}<a class="am-series-box__prev" href="{{ am_prev_post.url | relative_url }}" rel="prev">← Previous: {{ am_prev_post.short_title | default: am_prev_post.title | escape }}</a>{%- endif -%}
+{%- if am_next_post -%}<a class="am-series-box__next" href="{{ am_next_post.url | relative_url }}" rel="next">Next: {{ am_next_post.short_title | default: am_next_post.title | escape }} →</a>{%- endif -%}
+</p>
+{%- endif %}
+</nav>
+{%- endif -%}

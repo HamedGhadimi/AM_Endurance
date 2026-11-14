@@ -1,0 +1,173 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* ==========================================================================
+   AM Endurance components (Phoenix 1.7)
+   Minimal, neutral styling for map/series cards, badges and the series box.
+   Brand styling comes later.
+   ========================================================================== */
+
+/* Card grids: one column on phones, two from tablet width up */
+.am-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1em;
+  margin-bottom: 1.5em;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.am-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: mix(#fff, $background-color, 70%);
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+
+  p {
+    font-size: $type-size-6;
+    margin: 0 0 0.75em;
+  }
+}
+
+.page__content .am-card__title {
+  margin: 0 0 0.5em;
+  padding: 0;
+  border: 0;
+  font-size: $type-size-5;
+  line-height: 1.3;
+}
+
+.am-card__excerpt {
+  flex-grow: 1;
+}
+
+.am-card .am-card__more {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/* Badges */
+.am-badge {
+  display: inline-block;
+  margin: 0 0.4em 0.4em 0;
+  padding: 0.1em 0.5em;
+  font-size: $type-size-7;
+  font-weight: bold;
+  line-height: 1.6;
+  color: $text-color;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  vertical-align: middle;
+}
+
+.page__content a.am-badge {
+  text-decoration: none;
+}
+
+.am-badge--series {
+  background-color: $border-color;
+}
+
+.am-badge--planned {
+  color: $muted-text-color;
+  border-style: dashed;
+}
+
+/* /maps/ topics */
+.am-topic {
+  margin-bottom: 2em;
+}
+
+.page__content .am-topic__title {
+  margin-bottom: 0.25em;
+}
+
+.am-topic__desc,
+.am-series-page__desc {
+  color: $muted-text-color;
+}
+
+.am-coming-soon {
+  padding: 0.75em 1em;
+  border: 1px dashed $border-color;
+  border-radius: $border-radius;
+  font-size: $type-size-6;
+
+  p,
+  ul {
+    margin: 0;
+  }
+
+  ul {
+    margin-top: 0.5em;
+  }
+}
+
+.am-coming-soon__label {
+  font-weight: bold;
+}
+
+/* Series pages */
+.am-series-list__item {
+  margin-bottom: 1em;
+
+  p {
+    margin: 0 0 0.25em;
+  }
+
+  &.is-planned {
+    color: $muted-text-color;
+  }
+}
+
+.am-series-list__title {
+  font-weight: bold;
+}
+
+.am-series-list__excerpt {
+  font-size: $type-size-6;
+}
+
+/* In-article series box */
+.am-series-box {
+  display: flow-root;
+  margin: 0 0 1.5em;
+  padding: 0.75em 1em;
+  font-size: $type-size-6;
+  border: 1px solid $border-color;
+  border-inline-start: 4px solid $primary-color;
+  border-radius: $border-radius;
+
+  p {
+    margin: 0;
+    font-size: 1em;
+  }
+}
+
+.am-series-box__label {
+  font-weight: bold;
+}
+
+.am-series-box__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25em 1em;
+  margin-top: 0.5em !important;
+}
+
+.am-series-box__next {
+  margin-inline-start: auto;
+  text-align: end;
+}
