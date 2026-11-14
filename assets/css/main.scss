@@ -171,3 +171,101 @@ search: false
   margin-inline-start: auto;
   text-align: end;
 }
+
+/* ==========================================================================
+   Landing page (Phoenix 1.8)
+   Neutral layout only; brand styling comes in Release 2.
+   ========================================================================== */
+
+/* Hero buttons: keep a gap when they wrap onto two lines on phones */
+.page__hero--overlay .btn {
+  margin: 0 0.5em 0.5em 0;
+}
+
+.am-home-section {
+  margin-bottom: 3em;
+}
+
+/* Three columns on wide screens (series cards, "How the maps are built") */
+.am-grid--3 {
+  @include breakpoint($large) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* "From powder to qualified part": topic chain that wraps on narrow screens */
+.page__content .am-topic-chain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em 0;
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+  font-size: $type-size-6;
+}
+
+.page__content .am-topic-chain__item {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.am-topic-chain__arrow {
+  margin: 0 0.4em;
+  color: $muted-text-color;
+}
+
+.page__content a.am-topic-chain__link {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  white-space: nowrap;
+  text-decoration: none;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+}
+
+/* "How the maps are built" */
+.am-point {
+  padding-top: 0.5em;
+  border-top: 2px solid $border-color;
+
+  p {
+    margin: 0;
+    font-size: $type-size-6;
+  }
+}
+
+.page__content .am-point__title {
+  margin: 0 0 0.25em;
+  font-size: $type-size-5;
+}
+
+/* "About the author" */
+.am-author {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.am-author__avatar {
+  flex: 0 0 auto;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  @include breakpoint($small) {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+.am-author__body p {
+  margin: 0 0 0.5em;
+}
+
+.am-author__name,
+.am-author__more {
+  font-weight: bold;
+}

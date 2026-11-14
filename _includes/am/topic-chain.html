@@ -1,0 +1,10 @@
+{%- comment -%}
+  The six topics from _data/topics.yml, in order, as a horizontal chain.
+  Each links to its section on /maps/ (#topic-id). Wraps onto more lines on narrow screens.
+{%- endcomment -%}
+{%- assign am_maps_url = "/maps/" | relative_url -%}
+<ol class="am-topic-chain">
+{%- for am_t in site.data.topics %}
+<li class="am-topic-chain__item">{% unless forloop.first %}<span class="am-topic-chain__arrow" aria-hidden="true">→</span>{% endunless %}<a class="am-topic-chain__link" href="{{ am_maps_url }}#{{ am_t.id }}">{{ am_t.name | escape }}</a></li>
+{%- endfor %}
+</ol>
