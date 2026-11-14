@@ -37,7 +37,7 @@ This map focuses specifically on:
 ## Objectives
 ------
 
-This project maps the defects and flaws found in printed metal parts from Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting each defect's manifestation, root cause, and relationship to other defects into a single, navigable reference. The objective of this project is to create a practical, decision-oriented reference that connects:
+This project maps the defects and flaws found in printed metal parts from Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EB-PBF) — connecting each defect's manifestation, root cause, and relationship to other defects into a single, navigable reference. The objective of this project is to create a practical, decision-oriented reference that connects:
 
 * Each defect or flaw — what it is, where it manifests (surface, bulk, geometrical, or layer-level), and its engineering significance
 

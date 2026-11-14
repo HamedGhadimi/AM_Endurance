@@ -30,9 +30,9 @@ This map focuses specifically on:
 
 * The as-built (pre-heat-treatment) microstructural and mechanical state of stainless steel parts — nothing about the melt pool physics that produces these states, and nothing about the post-build thermal processing that resolves them
 * Two stainless steel families only: austenitic (316L, 304L) and precipitation-hardening (17-4PH, 15-5PH), distinguished throughout the map by tag rather than by separate nodes
-* L-PBF and EBM processes exclusively
+* L-PBF and EB-PBF processes exclusively
 
-> This is a living reference, refined through ongoing review — as-built state data, especially for EBM and for 15-5PH specifically, will continue to evolve as new characterization literature emerges.
+> This is a living reference, refined through ongoing review — as-built state data, especially for EB-PBF and for 15-5PH specifically, will continue to evolve as new characterization literature emerges.
 
 ## Objectives
 ------

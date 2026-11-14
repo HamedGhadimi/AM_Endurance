@@ -37,7 +37,7 @@ This map focuses specifically on:
 ## Objectives
 ------
 
-This project maps the complete characterization framework for metallic powders used in Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting characteristics, test methods, and standards into a single, navigable reference. The objective of this project is to create a practical, decision-oriented reference that connects:
+This project maps the complete characterization framework for metallic powders used in Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EB-PBF) — connecting characteristics, test methods, and standards into a single, navigable reference. The objective of this project is to create a practical, decision-oriented reference that connects:
 
 * Each powder characteristic — what it is, why it matters in AM, and how it influences process and part quality
 
