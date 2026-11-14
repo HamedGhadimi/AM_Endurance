@@ -12,7 +12,6 @@ toc_label: "Contents"
 header:
   overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
   overlay_filter: 0.55
-  caption: "Metal AM Defects & Flaws Map — AM Endurance"
 ---
 
 ## Introduction
