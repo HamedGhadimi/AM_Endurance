@@ -1,7 +1,7 @@
 ---
 title: "Powder Characterization in Metal Additive Manufacturing (L-PBF & EB-PBF)"
 short_title: "Powder Characterization"
-excerpt: "This project maps the complete characterization framework for metallic powders used in Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting characteristics, test methods, and standards into a single, navigable reference."
+excerpt: "Powder is where every powder bed fusion build begins. This map connects the characteristics of L-PBF and EB-PBF metallic powders to the test methods and standards used to measure them, in one navigable reference."
 date: 2026-04-01
 permalink: /powder-characterization/
 categories: [Feedstock]

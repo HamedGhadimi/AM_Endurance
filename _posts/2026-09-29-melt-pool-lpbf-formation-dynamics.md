@@ -1,7 +1,7 @@
 ---
 title: "Melt Pool in Metal Additive Manufacturing (L-PBF) — Formation & Dynamics"
 short_title: "Melt Pool Formation & Dynamics"
-excerpt: "This project maps the physics of the Laser Powder Bed Fusion melt pool — how laser energy couples into the powder bed, which forces govern the liquid, which modes the pool can have, the geometric and thermal signature it carries, and the process parameters that move it between regimes — into a single, navigable reference."
+excerpt: "Much of what an L-PBF part becomes is set inside the melt pool. This map traces how laser energy couples into the powder bed, which forces govern the liquid, and which parameters move it between regimes."
 date: 2026-09-29
 permalink: /melt-pool-lpbf-formation-dynamics/
 categories: [Process Physics]

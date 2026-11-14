@@ -1,7 +1,7 @@
 ---
 title: "Characterizing the Printed Part in Metal Additive Manufacturing (L-PBF & EB-PBF) — Overview: What to Measure and How"
 short_title: "Characterizing the Printed Part: Overview"
-excerpt: "This project maps what has to be known about a printed powder bed fusion part — its geometry, surface, internal integrity, microstructure, chemistry and residual stress — and which techniques can measure each quantity, organised by measurand rather than by instrument, into a single, navigable reference."
+excerpt: "On an as-built powder bed fusion part, valid techniques can disagree. This map organizes characterization by measurand rather than instrument: geometry, surface, internal integrity, microstructure, chemistry and residual stress, plus the techniques that measure each."
 date: 2026-10-25
 permalink: /characterizing-printed-part-overview/
 categories: ["Inspection & Characterization"]

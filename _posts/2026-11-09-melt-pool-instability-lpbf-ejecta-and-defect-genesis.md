@@ -1,7 +1,7 @@
 ---
 title: "Melt Pool Instability in Metal Additive Manufacturing (L-PBF) — Ejecta & Defect Genesis"
 short_title: "Melt Pool Instability & Defect Genesis"
-excerpt: "This project maps how the Laser Powder Bed Fusion melt pool becomes unstable, what it ejects when it does, and how those events seed the defects found in finished parts — tracing balling, denudation, spatter, keyhole pores and lack-of-fusion voids back to the specific physical mechanism behind each, into a single, navigable reference."
+excerpt: "A parameter change that fixes one L-PBF defect often creates another. This map traces balling, denudation, spatter, keyhole pores and lack-of-fusion voids back to the specific melt pool mechanism behind each."
 date: 2026-11-09
 permalink: /melt-pool-instability-lpbf-ejecta-defect-genesis/
 categories: [Process Physics]
