@@ -18,9 +18,6 @@ author:
   bio: "Additive Manufacturing Materials & Process Engineer and Researcher focused on L-PBF & EB-PBF"
   location: "Boston, MA"  # shown as plain text with a pin icon (the theme has no link for it)
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
-      url: "mailto:ghadimi.hamed@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/hamed-ghadimi"
