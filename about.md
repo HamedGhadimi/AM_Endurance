@@ -39,7 +39,7 @@ They're a work in progress, and I'm sure they have mistakes. If you find one, I'
 
 ## Get in touch
 
-I'm always happy to talk shop with fellow engineers and researchers, whether to swap ideas, discuss a map, or learn together.
+I'm always happy to talk with fellow engineers and researchers, whether to swap ideas, discuss a map, or learn together.
 
 [Email](mailto:ghadimi.hamed@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hamed-ghadimi)
 
