@@ -1,24 +1,18 @@
 ---
-title: "Mapping Metal Powder Characterization in Additive Manufacturing (L-PBF & EBM)"
-excerpt: "This project maps the complete characterization framework for metallic powders used in Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting characteristics, test methods, and standards into a single, navigable reference."
+title: "Powder Characterization in Metal Additive Manufacturing (L-PBF & EB-PBF)"
+short_title: "Powder Characterization"
+excerpt: "Powder is where every powder bed fusion build begins. This map connects the characteristics of L-PBF and EB-PBF metallic powders to the test methods and standards used to measure them, in one navigable reference."
 date: 2026-04-01
 permalink: /powder-characterization/
-categories: [Powder]
-tags: [AM, powder, L-PBF, EBM, Additive-Manufacturing]
+categories: [Feedstock]
+tags: [l-pbf, eb-pbf]
+kumu_url: "https://embed.kumu.io/427e39903bf49c4d9333eda178da6368"
 toc: true
 toc_label: "Contents"
 header:
-  <!-- overlay_image: /assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-Header1.jpg-->
-  overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
-  overlay_filter: 0.55
-  caption: "Metal Powder Characterization Map — AM Endurance"
+  overlay_image: /assets/images/am_endurance_network_header_light.svg
+  og_image: /assets/images/am_endurance_powder_network_wallpaper.svg
 ---
-
-<!-- This is a comment — invisible on the website -->
-<!-- 
-Comment
-Commetn
--->
 
 ## Introduction
 ------
@@ -43,7 +37,7 @@ This map focuses specifically on:
 ## Objectives
 ------
 
-This project maps the complete characterization framework for metallic powders used in Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting characteristics, test methods, and standards into a single, navigable reference. The objective of this project is to create a practical, decision-oriented reference that connects:
+This project maps the complete characterization framework for metallic powders used in Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EB-PBF) — connecting characteristics, test methods, and standards into a single, navigable reference. The objective of this project is to create a practical, decision-oriented reference that connects:
 
 * Each powder characteristic — what it is, why it matters in AM, and how it influences process and part quality
 
@@ -54,7 +48,7 @@ This project maps the complete characterization framework for metallic powders u
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308"
+  <a href="https://embed.kumu.io/427e39903bf49c4d9333eda178da6368"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -62,10 +56,12 @@ This project maps the complete characterization framework for metallic powders u
 </p>
 
 <iframe
-    src="https://embed.kumu.io/04942041a11b7e9984ab49cb3a855308"
-    width="940"
+    class="kumu-embed"
+    src="https://embed.kumu.io/427e39903bf49c4d9333eda178da6368"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="Powder Characterization — interactive map">
 </iframe>
 
 ## Executive Summary
@@ -84,7 +80,5 @@ The map covers 6 primary characteristics:
 * __Spreadability__: Primary test methods are In-Machine Evaluation, Spreading Testbeds, and Rotating Drum / Avalanche Angle.
 
 * __Chemical Composition__: Primary test methods are ICP-OES, XRF, pXRF, LECO ONH & CS
-
-## Read Also
 
 *Originally published on [LinkedIn](https://www.linkedin.com/pulse/mapping-metal-powder-characterization-additive-l-pbf-ghadimi-ph-d--v91se)*

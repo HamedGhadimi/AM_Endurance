@@ -1,0 +1,18 @@
+{%- comment -%}
+  Card for one series (include.series, from _data/series.yml); include.level = heading level (default 3).
+{%- endcomment -%}
+{%- assign am_sc = include.series -%}
+{%- assign am_h = include.level | default: 3 -%}
+{%- assign am_published = 0 -%}
+{%- for am_e in am_sc.entries -%}
+  {%- if am_e.post -%}
+    {%- assign am_lookup = site.posts | where: "url", am_e.post | first -%}
+    {%- if am_lookup -%}{%- assign am_published = am_published | plus: 1 -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+<article class="am-card am-series-card">
+<h{{ am_h }} class="am-card__title"><a href="{{ am_sc.url | relative_url }}">{{ am_sc.title | escape }}</a></h{{ am_h }}>
+<p class="am-card__badges"><span class="am-badge">{{ am_published }} of {{ am_sc.entries.size }} published</span></p>
+<p class="am-card__excerpt">{{ am_sc.description | escape }}</p>
+<p class="am-card__more"><a href="{{ am_sc.url | relative_url }}" aria-label="View series: {{ am_sc.title | escape }}">View series →</a></p>
+</article>

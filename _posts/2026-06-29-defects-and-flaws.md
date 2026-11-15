@@ -1,17 +1,17 @@
 ---
-title: "Mapping Defects and Flaws in Metal Additive Manufacturing (L-PBF & EBM)"
-excerpt: "This project maps the defects and flaws found in printed metal parts from Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EB-PBF or EBM) — connecting each defect's manifestation, root cause, and relationship to other defects into a single, navigable reference."
+title: "Defects and Flaws in Metal Additive Manufacturing (L-PBF & EB-PBF)"
+short_title: "Defects & Flaws"
+excerpt: "Every defect in a powder bed fusion part has two stories: what it looks like and why it happened. This map connects each L-PBF and EB-PBF defect's manifestation, root causes, and links to other defects."
 date: 2026-06-29
 permalink: /defects-and-flaws/
 categories: [Defects]
-tags: [AM, defects, flaws, L-PBF, EBM, EB-LPBF, Additive-Manufacturing]
+tags: [l-pbf, eb-pbf]
+kumu_url: "https://embed.kumu.io/9d124760e11f3ba9951df86e74eae0e4"
 toc: true
 toc_label: "Contents"
 header:
-  <!-- overlay_image: /assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-Header1.jpg-->
-  overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
-  overlay_filter: 0.55
-  caption: "Metal AM Defects & Flaws Map — AM Endurance"
+  overlay_image: /assets/images/am_endurance_network_header_light.svg
+  og_image: /assets/images/am_endurance_powder_network_wallpaper.svg
 ---
 
 ## Introduction
@@ -37,7 +37,7 @@ This map focuses specifically on:
 ## Objectives
 ------
 
-This project maps the defects and flaws found in printed metal parts from Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EBM) — connecting each defect's manifestation, root cause, and relationship to other defects into a single, navigable reference. The objective of this project is to create a practical, decision-oriented reference that connects:
+This project maps the defects and flaws found in printed metal parts from Laser Powder Bed Fusion (L-PBF) and Electron Beam Powder Bed Fusion (EB-PBF) — connecting each defect's manifestation, root cause, and relationship to other defects into a single, navigable reference. The objective of this project is to create a practical, decision-oriented reference that connects:
 
 * Each defect or flaw — what it is, where it manifests (surface, bulk, geometrical, or layer-level), and its engineering significance
 
@@ -48,7 +48,7 @@ This project maps the defects and flaws found in printed metal parts from Laser 
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/d65b2ab0fd97ecb72e94a6d9b0a08d0b"
+  <a href="https://embed.kumu.io/9d124760e11f3ba9951df86e74eae0e4"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -56,10 +56,12 @@ This project maps the defects and flaws found in printed metal parts from Laser 
 </p>
 
 <iframe
-    src="https://embed.kumu.io/d65b2ab0fd97ecb72e94a6d9b0a08d0b"
-    width="940"
+    class="kumu-embed"
+    src="https://embed.kumu.io/9d124760e11f3ba9951df86e74eae0e4"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="Defects & Flaws — interactive map">
 </iframe>
 
 ## Executive Summary

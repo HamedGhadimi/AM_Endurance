@@ -1,0 +1,12 @@
+{%- comment -%}
+  Card for one published map. include.post = the post; include.level = heading level (default 3).
+{%- endcomment -%}
+{%- assign am_card = include.post -%}
+{%- assign am_h = include.level | default: 3 -%}
+{%- assign am_card_title = am_card.short_title | default: am_card.title -%}
+<article class="am-card am-map-card">
+<h{{ am_h }} class="am-card__title"><a href="{{ am_card.url | relative_url }}">{{ am_card_title | escape }}</a></h{{ am_h }}>
+<p class="am-card__badges">{% include am/process-badges.html tags=am_card.tags %}{% include am/series-badge.html url=am_card.url %}</p>
+<p class="am-card__excerpt">{{ am_card.excerpt | strip_html | strip }}</p>
+<p class="am-card__more"><a href="{{ am_card.url | relative_url }}" aria-label="Open map: {{ am_card_title | escape }}">Open map →</a></p>
+</article>

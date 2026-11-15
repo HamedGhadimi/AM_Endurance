@@ -1,17 +1,19 @@
 ---
-title: "Melt Pool in Metal Additive Manufacturing (L-PBF) - Formation & Dynamics"
-excerpt: "This project maps the physics of the Laser Powder Bed Fusion melt pool — how laser energy couples into the powder bed, which forces govern the liquid, which modes the pool can have, the geometric and thermal signature it carries, and the process parameters that move it between regimes — into a single, navigable reference."
+title: "Melt Pool in Metal Additive Manufacturing (L-PBF) — Formation & Dynamics"
+short_title: "Melt Pool Formation & Dynamics"
+excerpt: "Much of what an L-PBF part becomes is set inside the melt pool. This map traces how laser energy couples into the powder bed, which forces govern the liquid, and which parameters move it between regimes."
 date: 2026-09-29
 permalink: /melt-pool-lpbf-formation-dynamics/
-categories: [Process]
-tags: [AM,melt-pool,melt-pool-dynamics,keyhole,L-PBF,Additive-Manufacturing]
+categories: [Process Physics]
+tags: [l-pbf]
+series: "Melt Pool"
+series_order: 1
+kumu_url: "https://embed.kumu.io/8077cff51c13e0525df6de508a5d9741"
 toc: true
 toc_label: "Contents"
 header:
-  <!-- overlay_image: /assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-Header1.jpg-->
-  overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
-  overlay_filter: 0.55
-  caption: "Melt Pool in Metal Additive Manufacturing (L-PBF) - Formation & Dynamics"
+  overlay_image: /assets/images/am_endurance_network_header_light.svg
+  og_image: /assets/images/am_endurance_powder_network_wallpaper.svg
 ---
 
 ## Introduction
@@ -49,7 +51,7 @@ The objective of this project is to build the mechanism layer between the machin
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/3e396683c7d0b55bea6612617f10aa69"
+  <a href="https://embed.kumu.io/8077cff51c13e0525df6de508a5d9741"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -57,10 +59,12 @@ The objective of this project is to build the mechanism layer between the machin
 </p>
 
 <iframe
-    src="https://embed.kumu.io/3e396683c7d0b55bea6612617f10aa69"
-    width="940"
+    class="kumu-embed"
+    src="https://embed.kumu.io/8077cff51c13e0525df6de508a5d9741"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="Melt Pool Formation & Dynamics — interactive map">
 </iframe>
 
 ## Executive Summary

@@ -1,0 +1,26 @@
+# Map topics, in display order (used by /maps/).
+# `name` must match a post's `categories` value exactly.
+# `id` is used for the in-page anchor (e.g. /maps/#process-physics).
+# `planned` (optional): titles of planned maps that belong to no series.
+#   /maps/ lists them under "Coming soon", together with planned series
+#   entries whose `topic` matches (_data/series.yml); duplicates are shown once.
+- id: feedstock
+  name: "Feedstock"
+  description: "Metal powders: their characteristics and how they are tested."
+- id: process-physics
+  name: "Process Physics"
+  description: "What happens in the melt pool, and how process parameters shape it."
+- id: defects
+  name: "Defects"
+  description: "What goes wrong in a printed part, and why."
+- id: materials-microstructure
+  name: "Materials & Microstructure"
+  description: "The state of the material as it leaves the machine."
+- id: post-processing
+  name: "Post-Processing"
+  description: "Heat treatment and other steps after the build."
+  planned:
+    - "Post-Build Heat Treatment of Steels"
+- id: inspection-characterization
+  name: "Inspection & Characterization"
+  description: "What to measure on a printed part, and how."

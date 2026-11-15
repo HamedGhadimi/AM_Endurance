@@ -1,0 +1,342 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* ==========================================================================
+   AM Endurance components (Phoenix 1.7)
+   Minimal, neutral styling for map/series cards, badges and the series box.
+   Brand styling comes later.
+   ========================================================================== */
+
+/* Card grids: one column on phones, two from tablet width up */
+.am-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1em;
+  margin-bottom: 1.5em;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.am-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: mix(#fff, $background-color, 70%);
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+
+  p {
+    font-size: $type-size-6;
+    margin: 0 0 0.75em;
+  }
+}
+
+.page__content .am-card__title {
+  margin: 0 0 0.5em;
+  padding: 0;
+  border: 0;
+  font-size: $type-size-5;
+  line-height: 1.3;
+}
+
+.am-card__excerpt {
+  flex-grow: 1;
+}
+
+.am-card .am-card__more {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/* Badges */
+.am-badge {
+  display: inline-block;
+  margin: 0 0.4em 0.4em 0;
+  padding: 0.1em 0.5em;
+  font-size: $type-size-7;
+  font-weight: bold;
+  line-height: 1.6;
+  color: $text-color;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  vertical-align: middle;
+}
+
+.page__content a.am-badge {
+  text-decoration: none;
+}
+
+.am-badge--series {
+  background-color: $border-color;
+}
+
+.am-badge--planned {
+  color: $muted-text-color;
+  border-style: dashed;
+}
+
+/* /maps/ topics */
+.am-topic {
+  margin-bottom: 2em;
+}
+
+.page__content .am-topic__title {
+  margin-bottom: 0.25em;
+}
+
+.am-topic__desc,
+.am-series-page__desc {
+  color: $muted-text-color;
+}
+
+.am-coming-soon {
+  padding: 0.75em 1em;
+  border: 1px dashed $border-color;
+  border-radius: $border-radius;
+  font-size: $type-size-6;
+
+  p,
+  ul {
+    margin: 0;
+  }
+
+  ul {
+    margin-top: 0.5em;
+  }
+}
+
+.am-coming-soon__label {
+  font-weight: bold;
+}
+
+/* Series pages */
+.am-series-list__item {
+  margin-bottom: 1em;
+
+  p {
+    margin: 0 0 0.25em;
+  }
+
+  &.is-planned {
+    color: $muted-text-color;
+  }
+}
+
+.am-series-list__title {
+  font-weight: bold;
+}
+
+.am-series-list__excerpt {
+  font-size: $type-size-6;
+}
+
+/* In-article series box */
+.am-series-box {
+  display: flow-root;
+  margin: 0 0 1.5em;
+  padding: 0.75em 1em;
+  font-size: $type-size-6;
+  border: 1px solid $border-color;
+  border-inline-start: 4px solid $primary-color;
+  border-radius: $border-radius;
+
+  p {
+    margin: 0;
+    font-size: 1em;
+  }
+}
+
+.am-series-box__label {
+  font-weight: bold;
+}
+
+.am-series-box__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25em 1em;
+  margin-top: 0.5em !important;
+}
+
+.am-series-box__next {
+  margin-inline-start: auto;
+  text-align: end;
+}
+
+/* ==========================================================================
+   Landing page (Phoenix 1.8)
+   Neutral layout only; brand styling comes in Release 2.
+   ========================================================================== */
+
+/* Hero buttons: keep a gap when they wrap onto two lines on phones */
+.page__hero--overlay .btn {
+  margin: 0 0.5em 0.5em 0;
+}
+
+.am-home-section {
+  margin-bottom: 3em;
+}
+
+/* Three columns on wide screens (series cards, "How the maps are built") */
+.am-grid--3 {
+  @include breakpoint($large) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* "From powder to qualified part": topic chain that wraps on narrow screens */
+.page__content .am-topic-chain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em 0;
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+  font-size: $type-size-6;
+}
+
+.page__content .am-topic-chain__item {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.am-topic-chain__arrow {
+  margin: 0 0.4em;
+  color: $muted-text-color;
+}
+
+.page__content a.am-topic-chain__link {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  white-space: nowrap;
+  text-decoration: none;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+}
+
+/* "How the maps are built" */
+.am-point {
+  padding-top: 0.5em;
+  border-top: 2px solid $border-color;
+
+  p {
+    margin: 0;
+    font-size: $type-size-6;
+  }
+}
+
+.page__content .am-point__title {
+  margin: 0 0 0.25em;
+  font-size: $type-size-5;
+}
+
+/* "About the author" */
+.am-author {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.am-author__avatar {
+  flex: 0 0 auto;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  @include breakpoint($small) {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+.am-author__body p {
+  margin: 0 0 0.5em;
+}
+
+.am-author__name,
+.am-author__more,
+.am-more {
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   Kumu map embeds (Phoenix 1.10b)
+   Every map iframe keeps a 16:10 frame at full content width. CSS
+   `height: auto` overrides the iframe's height="600" attribute, so the
+   height follows the width (e.g. 800px wide -> 500px tall).
+   ========================================================================== */
+
+.kumu-embed {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+}
+
+/* ==========================================================================
+   Light header wallpaper (Phoenix 1.10b)
+   The header image now has a transparent/light background and no dark
+   overlay_filter, so overlay-header text is dark with no text-shadow.
+   ========================================================================== */
+
+$am-hero-title: #1f2933;
+$am-hero-text: #3d4752;
+
+.page__hero--overlay {
+  a {
+    color: $am-hero-text;
+  }
+
+  .page__title {
+    color: $am-hero-title;
+    text-shadow: none;
+  }
+
+  .page__lead,
+  .page__meta,
+  .comment__date {
+    color: $am-hero-text;
+    text-shadow: none;
+  }
+
+  /* Hero buttons (the theme renders all of them as white outline):
+     dark outline by default... */
+  .btn,
+  .btn:visited {
+    color: $am-hero-title;
+    background-color: transparent;
+    border: 1px solid $am-hero-title;
+    text-shadow: none;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    color: #fff;
+    background-color: $am-hero-title;
+  }
+
+  /* ...and the first one ("Explore the maps") is a solid dark primary */
+  .btn:first-child,
+  .btn:first-child:visited {
+    color: #fff;
+    background-color: $am-hero-title;
+  }
+
+  .btn:first-child:hover,
+  .btn:first-child:focus {
+    background-color: $am-hero-text;
+    border-color: $am-hero-text;
+  }
+}

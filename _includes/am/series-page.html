@@ -1,0 +1,26 @@
+{%- comment -%}
+  Body of a series page: description and the ordered list of entries.
+  include.id = series id in _data/series.yml.
+{%- endcomment -%}
+{%- assign am_sp = site.data.series | where: "id", include.id | first -%}
+{%- if am_sp -%}
+<div class="am-series-page">
+<p class="am-series-page__desc">{{ am_sp.description | escape }}</p>
+<ol class="am-series-list">
+{%- for am_e in am_sp.entries -%}
+  {%- assign am_lookup = nil -%}
+  {%- if am_e.post -%}{%- assign am_lookup = site.posts | where: "url", am_e.post | first -%}{%- endif -%}
+  {%- if am_lookup %}
+<li class="am-series-list__item">
+<p class="am-series-list__title"><a href="{{ am_lookup.url | relative_url }}">{{ am_lookup.short_title | default: am_lookup.title | escape }}</a> {% include am/process-badges.html tags=am_lookup.tags %}</p>
+<p class="am-series-list__excerpt">{{ am_lookup.excerpt | strip_html | strip }}</p>
+</li>
+  {%- else %}
+<li class="am-series-list__item is-planned">
+<p class="am-series-list__title">{{ am_e.title | default: am_e.post | escape }} <span class="am-badge am-badge--planned">Planned</span></p>
+</li>
+  {%- endif -%}
+{%- endfor %}
+</ol>
+</div>
+{%- endif -%}

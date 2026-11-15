@@ -1,0 +1,3 @@
+{%- comment -%} "Melt Pool · Part 2" badge for a post (include.url), linked to the series page. {%- endcomment -%}
+{%- include am/series-locate.html url=include.url -%}
+{%- if am_series -%}<a class="am-badge am-badge--series" href="{{ am_series.url | relative_url }}">{{ am_series.title | escape }} · Part {{ am_pos }}</a>{%- endif -%}

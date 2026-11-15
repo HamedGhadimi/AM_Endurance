@@ -1,17 +1,18 @@
 ---
-title: "As-Built Microstructural State of Stainless Steel in Additive Manufacturing (L-PBF & EBM)"
-excerpt: "This project maps the as-built, pre-heat-treatment microstructural and mechanical state of austenitic and precipitation-hardening stainless steel produced by Laser Powder Bed Fusion and Electron Beam Powder Bed Fusion — connecting grain morphology, sub-grain substructure, phase imbalance, residual stress, and defects into a single, navigable reference."
+title: "As-Built Microstructural State of Stainless Steel in Metal Additive Manufacturing (L-PBF & EB-PBF)"
+short_title: "As-Built Stainless Steel Microstructure"
+excerpt: "Before any heat treatment, an AM stainless steel part already carries a distinctive microstructural and mechanical state. This map connects its grain morphology, sub-grain substructure, phase imbalance, residual stress, and defects in austenitic and precipitation-hardening grades from L-PBF and EB-PBF."
 date: 2026-08-10
-permalink: /as-build-microstructral-state-stainless-steel/
-categories: [State]
-tags: [AM, As-build, microstructral-state, L-PBF, EBM, EB-LPBF, Additive-Manufacturing]
+permalink: /as-built-microstructural-state-stainless-steel/
+redirect_from: [/as-build-microstructral-state-stainless-steel/]
+categories: ["Materials & Microstructure"]
+tags: [l-pbf, eb-pbf, stainless-steel]
+kumu_url: "https://embed.kumu.io/5e76d10b8859f0325c8b4d6d6f8aa301"
 toc: true
 toc_label: "Contents"
 header:
-  <!-- overlay_image: /assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-Header1.jpg-->
-  overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
-  overlay_filter: 0.55
-  caption: "As-Built Microstructural State of Stainless Steel in Additive Manufacturing (L-PBF & EBM)"
+  overlay_image: /assets/images/am_endurance_network_header_light.svg
+  og_image: /assets/images/am_endurance_powder_network_wallpaper.svg
 ---
 
 ## Introduction
@@ -27,9 +28,9 @@ This map focuses specifically on:
 
 * The as-built (pre-heat-treatment) microstructural and mechanical state of stainless steel parts — nothing about the melt pool physics that produces these states, and nothing about the post-build thermal processing that resolves them
 * Two stainless steel families only: austenitic (316L, 304L) and precipitation-hardening (17-4PH, 15-5PH), distinguished throughout the map by tag rather than by separate nodes
-* L-PBF and EBM processes exclusively
+* L-PBF and EB-PBF processes exclusively
 
-> This is a living reference, refined through ongoing review — as-built state data, especially for EBM and for 15-5PH specifically, will continue to evolve as new characterization literature emerges.
+> This is a living reference, refined through ongoing review — as-built state data, especially for EB-PBF and for 15-5PH specifically, will continue to evolve as new characterization literature emerges.
 
 ## Objectives
 ------
@@ -42,7 +43,7 @@ The objective of this project is to create a practical, decision-oriented refere
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/60d4aa3fbc14e3f1f89e54cfb39ff608"
+  <a href="https://embed.kumu.io/5e76d10b8859f0325c8b4d6d6f8aa301"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -50,10 +51,12 @@ The objective of this project is to create a practical, decision-oriented refere
 </p>
 
 <iframe
-    src="https://embed.kumu.io/60d4aa3fbc14e3f1f89e54cfb39ff608"
-    width="940"
+    class="kumu-embed"
+    src="https://embed.kumu.io/5e76d10b8859f0325c8b4d6d6f8aa301"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="As-Built Stainless Steel Microstructure — interactive map">
 </iframe>
 
 ## Executive Summary

@@ -1,24 +1,20 @@
 ---
-title: "Characterizing the Printed Part in Metal Additive Manufacturing (L-PBF & EBM) - Overview: What to Measure and How"
-excerpt: "This project maps what has to be known about a printed powder bed fusion part — its geometry, surface, internal integrity, microstructure, chemistry and residual stress — and which techniques can measure each quantity, organised by measurand rather than by instrument, into a single, navigable reference."
+title: "Characterizing the Printed Part in Metal Additive Manufacturing (L-PBF & EB-PBF) — Overview: What to Measure and How"
+short_title: "Characterizing the Printed Part: Overview"
+excerpt: "On an as-built powder bed fusion part, valid techniques can disagree. This map organizes characterization by measurand rather than instrument: geometry, surface, internal integrity, microstructure, chemistry and residual stress, plus the techniques that measure each."
 date: 2026-10-25
 permalink: /characterizing-printed-part-overview/
-categories: [Characterization]
-tags: [AM,characterization,metrology,NDE,metallography,L-PBF,EBM,Additive-Manufacturing]
+categories: ["Inspection & Characterization"]
+tags: [l-pbf, eb-pbf]
+series: "Inspection & Characterization"
+series_order: 1
+kumu_url: "https://embed.kumu.io/157c9c99438b699cdb2b7bdeecf3596e"
 toc: true
 toc_label: "Contents"
 header:
-  <!-- overlay_image: /assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-Header1.jpg-->
-  overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
-  overlay_filter: 0.55
-  caption: "Characterizing the Printed Part in Metal Additive Manufacturing (L-PBF & EBM) - Overview: What to Measure and How"
+  overlay_image: /assets/images/am_endurance_network_header_light.svg
+  og_image: /assets/images/am_endurance_powder_network_wallpaper.svg
 ---
-
-<!-- This is a comment — invisible on the website -->
-<!-- 
-Comment
-Commetn
--->
 
 ## Introduction
 ------
@@ -52,7 +48,7 @@ The objective of this project is to organise part characterization by measurand 
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/103581ee55f29e015189fc95c5ea5c1e"
+  <a href="https://embed.kumu.io/157c9c99438b699cdb2b7bdeecf3596e"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -60,10 +56,12 @@ The objective of this project is to organise part characterization by measurand 
 </p>
 
 <iframe
-    src="https://embed.kumu.io/103581ee55f29e015189fc95c5ea5c1e"
-    width="940"
+    class="kumu-embed"
+    src="https://embed.kumu.io/157c9c99438b699cdb2b7bdeecf3596e"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="Characterizing the Printed Part: Overview — interactive map">
 </iframe>
 
 ## Executive Summary

@@ -1,24 +1,20 @@
 ---
-title: "Melt Pool Instability in Metal Additive Manufacturing (L-PBF) - Ejecta & Defect Genesis"
-excerpt: "This project maps how the Laser Powder Bed Fusion melt pool becomes unstable, what it ejects when it does, and how those events seed the defects found in finished parts — tracing balling, denudation, spatter, keyhole pores and lack-of-fusion voids back to the specific physical mechanism behind each, into a single, navigable reference."
+title: "Melt Pool Instability in Metal Additive Manufacturing (L-PBF) — Ejecta & Defect Genesis"
+short_title: "Melt Pool Instability & Defect Genesis"
+excerpt: "A parameter change that fixes one L-PBF defect often creates another. This map traces balling, denudation, spatter, keyhole pores and lack-of-fusion voids back to the specific melt pool mechanism behind each."
 date: 2026-11-09
 permalink: /melt-pool-instability-lpbf-ejecta-defect-genesis/
-categories: [Process]
-tags: [AM,melt-pool,spatter,denudation,keyhole-porosity,lack-of-fusion,L-PBF,Additive-Manufacturing]
+categories: [Process Physics]
+tags: [l-pbf]
+series: "Melt Pool"
+series_order: 2
+kumu_url: "https://embed.kumu.io/5613399abbc43db69e858fc5cd964472"
 toc: true
 toc_label: "Contents"
 header:
-  <!-- overlay_image: /assets/images/Additive Manufacturing Metal Powder Characteristics and Tests-Header1.jpg-->
-  overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
-  overlay_filter: 0.55
-  caption: "Melt Pool Instability in Metal Additive Manufacturing (L-PBF) - Ejecta & Defect Genesis"
+  overlay_image: /assets/images/am_endurance_network_header_light.svg
+  og_image: /assets/images/am_endurance_powder_network_wallpaper.svg
 ---
-
-<!-- This is a comment — invisible on the website -->
-<!-- 
-Comment
-Commetn
--->
 
 ## Introduction
 ------
@@ -36,7 +32,7 @@ This map focuses specifically on:
 * Laser Powder Bed Fusion (L-PBF) only — electron-beam melt-pool behaviour is deferred to a dedicated future edition
 * Mechanism-level physics that applies across alloy families, with alloy- and rig-specific numbers stated together with the conditions under which they were measured
 
-The map ends at the moment a defect is created. The stable pool it starts from is the subject of the first map in this sub-series, [**Melt Pool in Metal Additive Manufacturing (L-PBF) - Formation & Dynamics**](https://hamedghadimi.github.io/AM_Endurance/melt-pool-lpbf-formation-dynamics/), and the finished-part catalogue of defects — how they are classified and detected — belongs to [**Mapping Defects and Flaws in Metal Additive Manufacturing (L-PBF & EBM)**](https://hamedghadimi.github.io/AM_Endurance/defects-and-flaws/).
+The map ends at the moment a defect is created. The stable pool it starts from is the subject of the first map in this sub-series, [**Melt Pool in Metal Additive Manufacturing (L-PBF) — Formation & Dynamics**]({{ site.baseurl }}{% post_url 2026-09-29-melt-pool-lpbf-formation-dynamics %}), and the finished-part catalogue of defects — how they are classified and detected — belongs to [**Defects and Flaws in Metal Additive Manufacturing (L-PBF & EB-PBF)**]({{ site.baseurl }}{% post_url 2026-06-29-defects-and-flaws %}).
 
 
 > This is a live project — built to the best of my current knowledge and intended to evolve. There may be inaccuracies, and there is always room for improvement.
@@ -53,7 +49,7 @@ The objective of this project is to give an engineer the specific physical mecha
 ## Explore the Interactive Map
 ------ 
 <p style="text-align:left;">
-  <a href="https://embed.kumu.io/f70b087914688773ccdc6af239b03708"
+  <a href="https://embed.kumu.io/5613399abbc43db69e858fc5cd964472"
      target="_blank"
      class="btn">
      🔍 Open Fullscreen Interactive Map
@@ -61,10 +57,12 @@ The objective of this project is to give an engineer the specific physical mecha
 </p>
 
 <iframe
-    src="https://embed.kumu.io/f70b087914688773ccdc6af239b03708"
-    width="940"
+    class="kumu-embed"
+    src="https://embed.kumu.io/5613399abbc43db69e858fc5cd964472"
+    width="100%"
     height="600"
-    frameborder="0">
+    style="border:0"
+    title="Melt Pool Instability & Defect Genesis — interactive map">
 </iframe>
 
 ## Executive Summary

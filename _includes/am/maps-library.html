@@ -1,0 +1,60 @@
+{%- comment -%}
+  /maps/ library: series cards, then all published maps grouped by topic
+  (topics in _data/topics.yml order). Wrapped in one <div> so Markdown leaves it alone.
+{%- endcomment -%}
+<div class="am-maps">
+<h2 id="series">Series</h2>
+<div class="am-grid">
+{%- for am_s in site.data.series %}
+{% include am/series-card.html series=am_s level=3 %}
+{%- endfor %}
+</div>
+<h2 id="all-maps-by-topic">All maps by topic</h2>
+{%- for am_t in site.data.topics -%}
+{%- assign am_topic_posts = site.posts | where_exp: "am_p", "am_p.categories contains am_t.name" | sort: "date" %}
+<section class="am-topic" id="{{ am_t.id }}">
+<h3 class="am-topic__title">{{ am_t.name | escape }}</h3>
+<p class="am-topic__desc">{{ am_t.description | escape }}</p>
+{%- if am_topic_posts.size > 0 %}
+<div class="am-grid">
+{%- for am_p in am_topic_posts %}
+{% include am/map-card.html post=am_p level=4 %}
+{%- endfor %}
+</div>
+{%- else %}
+<div class="am-coming-soon">
+<p class="am-coming-soon__label">Coming soon</p>
+{%- comment -%}
+  Planned titles come from series entries (status planned, matching topic)
+  and from the topic's own `planned:` list. am_seen tracks titles already
+  listed so each appears once (the series version, with its link, wins).
+{%- endcomment -%}
+{%- assign am_seen = "|" -%}
+{%- capture am_planned -%}
+{%- for am_s in site.data.series -%}
+{%- for am_e in am_s.entries -%}
+{%- if am_e.status == "planned" and am_e.topic == am_t.name -%}
+{%- assign am_key = "|" | append: am_e.title | append: "|" -%}
+{%- unless am_seen contains am_key -%}
+{%- assign am_seen = am_seen | append: am_e.title | append: "|" -%}
+<li>{{ am_e.title | escape }} <span class="am-coming-soon__series">· <a href="{{ am_s.url | relative_url }}">{{ am_s.title | escape }} series</a></span></li>
+{%- endunless -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+{%- for am_title in am_t.planned -%}
+{%- assign am_key = "|" | append: am_title | append: "|" -%}
+{%- unless am_seen contains am_key -%}
+{%- assign am_seen = am_seen | append: am_title | append: "|" -%}
+<li>{{ am_title | escape }}</li>
+{%- endunless -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- if am_planned != "" %}
+<ul class="am-coming-soon__list">{{ am_planned }}</ul>
+{%- endif %}
+</div>
+{%- endif %}
+</section>
+{%- endfor %}
+</div>

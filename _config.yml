@@ -1,33 +1,70 @@
 # Site settings (this is a comment)
 title: AM Endurance
-description: Metal Additive Manufacturing (L-PBF & EB-PBF) Technical Maps
+description: "Interactive, source-traced knowledge maps of powder bed fusion, for ever-learning materials & process engineers and researchers."
 url: "https://hamedghadimi.github.io"
 baseurl: "/AM_Endurance"
-favicon: "/assets/images/AM_Endurance_FAVICON.png"
-remote_theme: mmistakes/minimal-mistakes@4.12.1
+copyright_url: "https://hamedghadimi.github.io/AM_Endurance/"  # footer copyright link (theme defaults to url)
+remote_theme: mmistakes/minimal-mistakes@4.28.1
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from  # enables `redirect_from:` in front matter (for approved permalink fixes)
 
 author:
   name: "Hamed Ghadimi"
-  avatar: "/assets/images/Hamed Ghadimi2.jpeg"
-  bio: "Additive Manufacturing Materials & Process Engineer and Researcher focused on L-PBF & EBM"
-  location: "Boston, MA"
-  email: "ghadimi.hamed@gmail.com"
-  linkedin: "hamed-ghadimi"
-  github: "HamedGhadimi"
+  avatar: "/assets/images/hamed-ghadimi.jpeg"
+  bio: "Additive Manufacturing Materials & Process Engineer and Researcher focused on L-PBF & EB-PBF"
+  location: "Boston, MA"  # shown as plain text with a pin icon (the theme has no link for it)
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hamed-ghadimi"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/HamedGhadimi"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=iF3bRHMAAAAJ&hl=en"
+
+# Footer "Follow" links, in display order. The theme appends the RSS
+# "Feed" link automatically (keep it: do not set atom_feed.hide).
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hamed-ghadimi"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=iF3bRHMAAAAJ&hl=en"
+    - label: "Newsletter"
+      icon: "fas fa-fw fa-newspaper"
+      url: "https://www.linkedin.com/newsletters/am-endurance-7325356841809375233/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/HamedGhadimi"
 
 minimal_mistakes_skin: "air"  # Options: default, air, aqua, contrast, dark, dirt, mint, sunrise
 
-paginate: 5
-paginate_path: "/page:num/"
+# Files and folders Jekyll must NOT publish to the site.
+# Setting this replaces Jekyll's built-in list, so its defaults are repeated here.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache
+  - README.md
+  - LICENSE
+  - CLAUDE.md
 
 defaults:
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: map  # = theme `single` + series box (see _layouts/map.html)
       author_profile: true
