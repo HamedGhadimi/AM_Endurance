@@ -11,6 +11,7 @@ toc: true
 toc_label: "Contents"
 header:
   overlay_image: /assets/images/am_endurance_network_header_light.svg
+  og_image: /assets/images/am_endurance_powder_network_wallpaper.svg
 ---
 
 ## Introduction
