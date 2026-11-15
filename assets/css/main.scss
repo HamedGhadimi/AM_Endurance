@@ -270,3 +270,17 @@ search: false
 .am-more {
   font-weight: bold;
 }
+
+/* ==========================================================================
+   Kumu map embeds (Phoenix 1.10b)
+   Every map iframe keeps a 16:10 frame at full content width. CSS
+   `height: auto` overrides the iframe's height="600" attribute, so the
+   height follows the width (e.g. 800px wide -> 500px tall).
+   ========================================================================== */
+
+.kumu-embed {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+}

@@ -59,6 +59,7 @@ The objective of this project is to build the mechanism layer between the machin
 </p>
 
 <iframe
+    class="kumu-embed"
     src="https://embed.kumu.io/8077cff51c13e0525df6de508a5d9741"
     width="100%"
     height="600"

@@ -57,6 +57,7 @@ The objective of this project is to give an engineer the specific physical mecha
 </p>
 
 <iframe
+    class="kumu-embed"
     src="https://embed.kumu.io/5613399abbc43db69e858fc5cd964472"
     width="100%"
     height="600"

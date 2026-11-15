@@ -51,6 +51,7 @@ The objective of this project is to create a practical, decision-oriented refere
 </p>
 
 <iframe
+    class="kumu-embed"
     src="https://embed.kumu.io/5e76d10b8859f0325c8b4d6d6f8aa301"
     width="100%"
     height="600"

@@ -56,6 +56,7 @@ This project maps the defects and flaws found in printed metal parts from Laser 
 </p>
 
 <iframe
+    class="kumu-embed"
     src="https://embed.kumu.io/9d124760e11f3ba9951df86e74eae0e4"
     width="100%"
     height="600"

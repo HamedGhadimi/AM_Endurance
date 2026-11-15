@@ -56,6 +56,7 @@ The objective of this project is to organise part characterization by measurand 
 </p>
 
 <iframe
+    class="kumu-embed"
     src="https://embed.kumu.io/157c9c99438b699cdb2b7bdeecf3596e"
     width="100%"
     height="600"
