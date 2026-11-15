@@ -284,3 +284,59 @@ search: false
   height: auto;
   aspect-ratio: 16 / 10;
 }
+
+/* ==========================================================================
+   Light header wallpaper (Phoenix 1.10b)
+   The header image now has a transparent/light background and no dark
+   overlay_filter, so overlay-header text is dark with no text-shadow.
+   ========================================================================== */
+
+$am-hero-title: #1f2933;
+$am-hero-text: #3d4752;
+
+.page__hero--overlay {
+  a {
+    color: $am-hero-text;
+  }
+
+  .page__title {
+    color: $am-hero-title;
+    text-shadow: none;
+  }
+
+  .page__lead,
+  .page__meta,
+  .comment__date {
+    color: $am-hero-text;
+    text-shadow: none;
+  }
+
+  /* Hero buttons (the theme renders all of them as white outline):
+     dark outline by default... */
+  .btn,
+  .btn:visited {
+    color: $am-hero-title;
+    background-color: transparent;
+    border: 1px solid $am-hero-title;
+    text-shadow: none;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    color: #fff;
+    background-color: $am-hero-title;
+  }
+
+  /* ...and the first one ("Explore the maps") is a solid dark primary */
+  .btn:first-child,
+  .btn:first-child:visited {
+    color: #fff;
+    background-color: $am-hero-title;
+  }
+
+  .btn:first-child:hover,
+  .btn:first-child:focus {
+    background-color: $am-hero-text;
+    border-color: $am-hero-text;
+  }
+}

@@ -10,8 +10,7 @@ kumu_url: "https://embed.kumu.io/9d124760e11f3ba9951df86e74eae0e4"
 toc: true
 toc_label: "Contents"
 header:
-  overlay_image: /assets/images/am_endurance_powder_network_wallpaper.svg
-  overlay_filter: 0.55
+  overlay_image: /assets/images/am_endurance_network_header_light.svg
 ---
 
 ## Introduction
